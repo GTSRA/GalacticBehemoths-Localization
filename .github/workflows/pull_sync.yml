@@ -1,0 +1,51 @@
+name: Sync Files from Upstream
+
+on:
+  repository_dispatch:
+    types: [a_repo_updated] # 监听 A 仓库发来的信号事件
+  workflow_dispatch: # 保留手动触发按钮，方便调试
+
+jobs:
+  sync-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checkout 当前仓库 (B 仓库)
+      - name: Checkout Upstream
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.CROSS_REPO_TOKEN }}
+
+      # 2. Checkout A 仓库的指定路径到临时目录
+      - name: Checkout Partial Upstream
+        uses: actions/checkout@v7
+        with:
+          repository: 'GTSRA/gtsra' # 替换为 A 仓库的名
+          token: ${{ secrets.CROSS_REPO_TOKEN }}
+          path: 'gtsra' # 临时存放 A 仓库代码的目录
+          sparse-checkout: |
+            localisation
+      
+      # 3. 复制指定文件/文件夹，并清理临时目录
+      - name: Copy files 
+        run: |
+          mkdir -p localisation/replace localisation/simp_chinese
+          cp -r gtsra/localisation/replace/simp_chinese localisation/replace/
+          cp -r gtsra/localisation/simp_chinese localisation/
+          
+          # 删掉临时拿过来的 A 仓库目录
+          rm -rf gtsra
+
+      # 4. 提交更改并 Push 到 B 仓库
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add .
+          # 检查是否有文件变更，避免没有改变时报错停止
+          if git diff --staged --quiet; then
+            echo "Skipped for no changes."
+          else
+            git commit -m "chore: auto sync original localization files from GTSRA/gtsra"
+            git push
+          fi
