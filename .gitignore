@@ -1,0 +1,30 @@
+# IDE配置
+.idea/
+*.iml
+*.ipynb_checkpoints/
+
+# 构建产物
+target/
+build/
+dist/
+
+# 日志文件
+logs/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 包管理器
+node_modules/
+package-lock.json
+yarn.lock
+pom.xml
+
+# 虚拟环境
+venv/
+.venv/
+__pycache__/
+
+# 个人配置
+.env
