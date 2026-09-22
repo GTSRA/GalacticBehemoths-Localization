@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'localisation/**'
 
 jobs:
   ping-repo-b:
