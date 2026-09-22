@@ -2,8 +2,8 @@ import json
 import os
 import re
 
-# Load glossary dynamically from scripts/glossary.json if available
-GLOSSARY_FILE = os.path.join(os.path.dirname(__file__), 'glossary.json')
+# Load glossary dynamically from data/glossary.json if available
+GLOSSARY_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'glossary.json')
 
 def load_glossary():
     if os.path.exists(GLOSSARY_FILE):
@@ -53,8 +53,9 @@ def translate_text(text):
     return translated
 
 def main():
-    source_file = 'scripts/missing_translations.json'
-    output_file = 'scripts/missing_translations_translated.json'
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    source_file = os.path.join(repo_root, 'data', 'missing_translations.json')
+    output_file = os.path.join(repo_root, 'data', 'missing_translations_translated.json')
     
     if not os.path.exists(source_file):
         print(f"Source file {source_file} not found.")

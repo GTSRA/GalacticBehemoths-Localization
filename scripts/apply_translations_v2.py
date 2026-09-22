@@ -17,8 +17,8 @@ yaml.width = 10000000  # Prevent wrapping
 BASE_DIR = Path(__file__).parent.parent
 SOURCE_BASE = BASE_DIR / "localisation" / "simp_chinese"
 TARGET_BASE = BASE_DIR / "localisation" / "english"
-TRANSLATIONS_FILE = BASE_DIR / "scripts" / "missing_translations_translated.json"
-LOCK_FILE = BASE_DIR / "scripts" / "translation_lock.json"
+TRANSLATIONS_FILE = BASE_DIR / "data" / "missing_translations_translated.json"
+LOCK_FILE = BASE_DIR / "data" / "translation_lock.json"
 
 def clean_yaml_content(content):
     # Remove :0 which makes YAML invalid for ruamel

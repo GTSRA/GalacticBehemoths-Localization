@@ -24,7 +24,9 @@ pom.xml
 # 虚拟环境
 venv/
 .venv/
+env/
 __pycache__/
+*.pyc
 
 # 个人配置
 .env

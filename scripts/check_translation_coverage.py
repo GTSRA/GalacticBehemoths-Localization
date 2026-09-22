@@ -95,7 +95,7 @@ def get_keys_and_values_from_file(file_path):
     return {k: v['value'] for k, v in raw_data.items()}
 
 
-def get_changed_keys(commit_hash, cn_dir):
+def get_changed_keys(commit_hash, cn_dir, details=False):
     """
     Returns a set of keys that have changed in the Chinese directory since the given commit.
     Ignores whitespace changes.
@@ -117,7 +117,8 @@ def get_changed_keys(commit_hash, cn_dir):
             diff_result = subprocess.run(cmd_diff, capture_output=True, text=True)
             
             if diff_result.returncode != 0:
-                print(f"Warning: Could not diff file {file_path}")
+                if details:
+                    print(f"Warning: Could not diff file {file_path}")
                 continue
 
             for line in diff_result.stdout.splitlines():
@@ -143,15 +144,16 @@ def main():
     parser = argparse.ArgumentParser(description="Check translation coverage.")
     parser.add_argument("-o", "--output", help="Output file path for missing/outdated translations in JSON format.")
     parser.add_argument("-c", "--commit", help="Git commit hash to compare against for finding outdated translations.")
-    parser.add_argument("-l", "--lockfile", help="Path to translation lockfile (default: scripts/translation_lock.json).")
+    parser.add_argument("-l", "--lockfile", help="Path to translation lockfile (default: data/translation_lock.json).")
     parser.add_argument("--init-lock", action="store_true", help="Initialize/generate the lockfile from current translation status and exit.")
+    parser.add_argument("-d", "--details", action="store_true", help="Show detailed warnings and list of missing/outdated keys.")
     args = parser.parse_args()
 
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     loc_dir = os.path.join(repo_root, "localisation")
     cn_dir = os.path.join(loc_dir, "simp_chinese")
     en_dir = os.path.join(loc_dir, "english")
-    default_lockfile = os.path.join(repo_root, "scripts", "translation_lock.json")
+    default_lockfile = os.path.join(repo_root, "data", "translation_lock.json")
     lockfile_path = args.lockfile if args.lockfile else default_lockfile
 
     if not os.path.exists(cn_dir):
@@ -169,7 +171,7 @@ def main():
     changed_keys = set()
     if args.commit:
         print(f"Calculating changes since commit {args.commit}...")
-        changed_keys = get_changed_keys(args.commit, cn_dir)
+        changed_keys = get_changed_keys(args.commit, cn_dir, details=args.details)
         print(f"Found {len(changed_keys)} changed/new keys.")
 
     print(f"Scanning Chinese files in {cn_dir}...")
@@ -194,7 +196,8 @@ def main():
                         if val_dict.get('comment'):
                             en_comments[key] = val_dict['comment']
     else:
-        print(f"Warning: English localization directory not found at {en_dir}")
+        if args.details:
+            print(f"Warning: English localization directory not found at {en_dir}")
 
     # Handle --init-lock
     if args.init_lock:
@@ -229,10 +232,12 @@ def main():
             has_lockfile = True
             print(f"Loaded translation lockfile from {lockfile_path} ({len(lock_data)} keys).")
         except Exception as e:
-            print(f"Warning: Could not read lockfile at {lockfile_path}: {e}")
+            if args.details:
+                print(f"Warning: Could not read lockfile at {lockfile_path}: {e}")
     else:
         if args.lockfile:
-            print(f"Warning: Specified lockfile not found at {lockfile_path}. Falling back to English comments.")
+            if args.details:
+                print(f"Warning: Specified lockfile not found at {lockfile_path}. Falling back to English comments.")
         else:
             print(f"No lockfile found at {lockfile_path}. Falling back to English file comments.")
 
@@ -250,7 +255,8 @@ def main():
         original_text = info['original']
         # Check if original text is empty or just whitespace
         if not original_text or original_text.strip() == "":
-            print(f"Warning: Key '{key}' in {info['file']} has empty original text.")
+            if args.details:
+                print(f"Warning: Key '{key}' in {info['file']} has empty original text.")
             missing_items.append({
                 "file": info['file'],
                 "key": key,
@@ -338,7 +344,8 @@ def main():
                 print(f"\nReport written to {args.output}")
             except Exception as e:
                 print(f"\nError writing to output file: {e}")
-        else:
+
+        if args.details:
             # Group by file and status
             items_by_file = {}
             for item in missing_items:

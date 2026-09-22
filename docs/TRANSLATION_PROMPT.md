@@ -3,14 +3,15 @@
 When I need you to translate missing keys, please follow these steps:
 
 ## 1. Generate Missing Translations
-Use virtual environment `venv`.
+**Always prioritize using the virtual environment** (`.venv`, or `venv` if configured).
 Run the coverage script to find all missing localization keys and output them to a JSON file:
 ```bash
-python scripts/check_translation_coverage.py -o scripts/missing_translations.json
+.venv/bin/python scripts/check_translation_coverage.py -o data/missing_translations.json
 ```
+*(Or activate the virtual environment via `source .venv/bin/activate` before running `python scripts/check_translation_coverage.py -o data/missing_translations.json`)*
 
 ## 2. Translate the Keys
-Read the generated `scripts/missing_translations.json` file and translate the `original` Chinese text into English with your own capability.
+Read the generated `data/missing_translations.json` file and translate the `original` Chinese text into English with your own capability.
 
 Items in `missing_translations.json` can have two statuses:
 * `"status": "missing"`: Newly added keys that do not have an English translation yet.
@@ -21,10 +22,10 @@ Items in `missing_translations.json` can have two statuses:
 
 ### Mandatory Requirements:
 * **No External Tools:** Do not use any external web scrapers or unauthorized external tools.
-* **Schema Adherence:** Your final output MUST strictly match the JSON schema defined in `scripts/missing_translations_translated_schema.json`. It should be a JSON array of objects containing `file`, `key`, `original` (must be the updated/new original text), and `translation`.
+* **Schema Adherence:** Your final output MUST strictly match the JSON schema defined in `data/missing_translations_translated_schema.json`. It should be a JSON array of objects containing `file`, `key`, `original` (must be the updated/new original text), and `translation`.
 
 * **Strict Glossary Compliance (Highest Priority):** 
-  You MUST follow the project's official terminology definitions in [`scripts/glossary.json`](glossary.json) and [`scripts/glossary.md`](glossary.md).
+  You MUST follow the project's official terminology definitions in [`data/glossary.json`](../data/glossary.json) and [`docs/glossary.md`](glossary.md).
   - **Characters & Factions:** 
     - 希诺 $\to$ `Xino` (Never use *Xinuo* or *Xilonen*)
     - 法拉 $\to$ `Fara`
@@ -63,11 +64,12 @@ Items in `missing_translations.json` can have two statuses:
   - Preserve all variables and localisation macro links (e.g. `[Root.GetName]`, `$trait_xxx$`, `\n`).
 
 ## 3. Save Output
-Save your translated JSON array to `scripts/missing_translations_translated.json`.
+Save your translated JSON array to `data/missing_translations_translated.json`.
 
 ## 4. Apply Translations
-Once translated, use the project application script to update the English localization files and synchronize `scripts/translation_lock.json`:
+Once translated, use the project application script (prioritizing the virtual environment `.venv`) to update the English localization files and synchronize `data/translation_lock.json`:
 ```bash
-python scripts/apply_translations_v2.py
+.venv/bin/python scripts/apply_translations_v2.py
 ```
+*(Or `python scripts/apply_translations_v2.py` with the virtual environment activated)*
 
