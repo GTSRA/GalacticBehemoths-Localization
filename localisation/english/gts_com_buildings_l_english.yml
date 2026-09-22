@@ -366,7 +366,6 @@
   mod_planet_farmers_gts_giantess_fluid_produces_add: "每100[farmer.GetIcon][GetFarmerPlural] produced £gts_giantess_fluid£ Giantess Fluid"
   # 每$VALUE$個人口提供§G1§!个寄居内衣维护员岗位
   #  每$VALUE$个人口提供§G1§!个寄居内衣维护员岗位
-#  每$VALUE$个人口提供§G1§!个寄居内衣维护员岗位
   mod_job_gts_sojourn_worker_per_pop: "Every $VALUE$ pops provide §G1§! Sojourn Underwear Maintainer job"
   mod_job_gts_research_center_worker_per_pop: "Every $VALUE$ pops provide §G1§! Giantess Physiology Researcher job"
   # 靴内士兵
@@ -379,7 +378,6 @@
   mod_job_gts_shoe_soldier_worker_add: "$job_gts_shoe_soldier_worker$ job"
   # $job_gts_shoe_soldier_worker$是巨娘岗位，消耗£gts_micro£§Y$gts_micro$§!、§Y$r_alloys$§!\n每100§Y$job_gts_shoe_soldier_worker$§!增加10点£mod_country_naval_cap_add£§Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!、提升3点£stability£§Y$concept_stability$§!、增加1支£defense_army£§Y$MOD_PLANET_DEFENSE_ARMIES_ADD$§!\n每100§Y$job_gts_shoe_soldier_worker$§!提升6%£mod_army_defense_health_mult£§Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§!、4%£mod_army_defense_damage_mult£§Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§!、4%£mod_army_defense_morale_mult£§Y$MOD_ARMY_DEFENSE_MORALE_MULT$§!
   #  $job_gts_shoe_soldier_worker$是小人岗位，消耗£gts_micro£§Y$gts_micro$§!、§Y$r_alloys$§!\n每100§Y$job_gts_shoe_soldier_worker$§!增加10点£mod_country_naval_cap_add£§Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!、提升3点£stability£§Y$concept_stability$§!、增加1支£defense_army£§Y$MOD_PLANET_DEFENSE_ARMIES_ADD$§!\n每100§Y$job_gts_shoe_soldier_worker$§!提升6%£mod_army_defense_health_mult£§Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§!、4%£mod_army_defense_damage_mult£§Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§!、4%£mod_army_defense_morale_mult£§Y$MOD_ARMY_DEFENSE_MORALE_MULT$§!
-#  $job_gts_shoe_soldier_worker$是小人岗位，消耗£gts_micro£§Y$gts_micro$§!、§Y$r_alloys$§!\n每100§Y$job_gts_shoe_soldier_worker$§!增加10点£mod_country_naval_cap_add£§Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!、提升3点£stability£§Y$concept_stability$§!、增加1支£defense_army£§Y$MOD_PLANET_DEFENSE_ARMIES_ADD$§!\n每100§Y$job_gts_shoe_soldier_worker$§!提升6%£mod_army_defense_health_mult£§Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§!、4%£mod_army_defense_damage_mult£§Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§!、4%£mod_army_defense_morale_mult£§Y$MOD_ARMY_DEFENSE_MORALE_MULT$§!
   job_gts_shoe_soldier_worker_effect_desc: "$job_gts_shoe_soldier_worker$ is a tiny person job, consuming £gts_micro£§Y$gts_micro$§!, §Y$r_alloys$§!\\nEvery 100 §Y$job_gts_shoe_soldier_worker$§! increase 10 £mod_country_naval_cap_add£§Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!, increase 3 £stability£§Y$concept_stability$§!, add 1 £defense_army£§Y$MOD_PLANET_DEFENSE_ARMIES_ADD$§!\\nEvery 100 §Y$job_gts_shoe_soldier_worker$§! increase 6% £mod_army_defense_health_mult£§Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§!, 4% £mod_army_defense_damage_mult£§Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§!, 4% £mod_army_defense_morale_mult£§Y$MOD_ARMY_DEFENSE_MORALE_MULT$§!"
   mod_job_micro_teacher_per_pop: "Every $VALUE$ pops provide §G1§! Giantess Teacher job"
   # $job_micro_commander$是巨娘岗位，消耗£gts_micro£§Y$gts_micro$§!、§Y$r_alloys$§!\n每100§Y$job_micro_commander$§!增加10点£mod_country_naval_cap_add£§Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!、提升3点£stability£§Y$concept_stability$§!、增加1支£defense_army£§Y$MOD_PLANET_DEFENSE_ARMIES_ADD$§!\n每100§Y$job_micro_commander$§!提升6%£mod_army_defense_health_mult£§Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§!、4%£mod_army_defense_damage_mult£§Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§!、4%£mod_army_defense_morale_mult£§Y$MOD_ARMY_DEFENSE_MORALE_MULT$§!
@@ -423,3 +421,54 @@
   mod_job_gts_sperm_soldier_add: "$job_gts_sperm_soldier$ Jobs"
   #  $job_gts_sperm_soldier$是巨娘岗位。
   job_gts_sperm_soldier_effect_desc: "$job_gts_sperm_soldier$ is a giantess job."
+  #  $job_tiny_sperm_commander$
+#  $job_tiny_sperm_commander$
+  job_tiny_sperm_commander_plural: "$job_tiny_sperm_commander$"
+#  $job_tiny_prison_worker$
+  job_tiny_prison_worker_plural: "$job_tiny_prison_worker$"
+#  $job_tiny_growth_worker$
+  job_tiny_growth_worker_plural: "$job_tiny_growth_worker$"
+#  $job_gts_prision_worker$
+  job_gts_prision_worker_plural: "$job_gts_prision_worker$"
+#  $job_gts_growth_worker$
+  job_gts_growth_worker_plural: "$job_gts_growth_worker$"
+#  精子驯养员
+  job_tiny_sperm_commander: "Sperm Tamer"
+#  这些庞大的生物能够被轻易引导,随我们心意碾压路径上的一切.如果可以忽视带来的更大的连带损失的话...
+  job_tiny_sperm_commander_desc: "These colossal creatures can be easily guided to crush anything in their path at our whim—if one can overlook the even greater collateral damage they cause..."
+#  $job_tiny_sperm_commander$岗位
+  mod_job_tiny_sperm_commander_add: "$job_tiny_sperm_commander$ Jobs"
+#  $job_tiny_sperm_commander$是小人岗位。
+  job_tiny_sperm_commander_effect_desc: "$job_tiny_sperm_commander$ is a Tiny person Job."
+#  体内巡查员
+  job_tiny_prison_worker: "Internal Patroller"
+#  体内巡查员
+  job_tiny_prison_worker_desc: "Internal Patroller"
+#  $job_tiny_prison_worker$岗位
+  mod_job_tiny_prison_worker_add: "$job_tiny_prison_worker$ Jobs"
+#  $job_tiny_prison_worker$是小人岗位。
+  job_tiny_prison_worker_effect_desc: "$job_tiny_prison_worker$ is a Tiny person Job."
+#  宫颈口护理员
+  job_tiny_growth_worker: "Cervix Caretaker"
+#  宫颈口护理员
+  job_tiny_growth_worker_desc: "Cervix Caretaker"
+#  $job_tiny_growth_worker$岗位
+  mod_job_tiny_growth_worker_add: "$job_tiny_growth_worker$ Jobs"
+#  $job_tiny_growth_worker$是小人岗位。
+  job_tiny_growth_worker_effect_desc: "$job_tiny_growth_worker$ is a Tiny person Job."
+#  体内治安官
+  job_gts_prision_worker: "Internal Enforcer"
+#  体内治安官
+  job_gts_prision_worker_desc: "Internal Enforcer"
+#  $job_gts_prision_worker$岗位
+  mod_job_gts_prision_worker_add: "$job_gts_prision_worker$ Jobs"
+#  $job_gts_prision_worker$是巨娘岗位。
+  job_gts_prision_worker_effect_desc: "$job_gts_prision_worker$ is a Giantess Job."
+#  宫颈口护理员
+  job_gts_growth_worker: "Cervix Caretaker"
+#  宫颈口护理员
+  job_gts_growth_worker_desc: "Cervix Caretaker"
+#  $job_gts_growth_worker$岗位
+  mod_job_gts_growth_worker_add: "$job_gts_growth_worker$ Jobs"
+#  $job_gts_growth_worker$是巨娘岗位。
+  job_gts_growth_worker_effect_desc: "$job_gts_growth_worker$ is a Giantess Job."

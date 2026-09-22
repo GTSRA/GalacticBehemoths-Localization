@@ -82,7 +82,9 @@
   job_gts_juice_worker_effect_desc: "Increases population growth rate"
   mod_job_gts_juice_worker_add: "$job_gts_juice_worker$ jobs"
   mod_job_gts_juice_worker_per_pop: "§G+1§! $job_gts_juice_worker$ job per $VALUE$ population"
-  mod_job_gts_juice_worker_per_pop_short: "\n§G+1§!$mod_job_gts_juice_worker_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_juice_worker_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_juice_worker_add$
+  mod_job_gts_juice_worker_per_pop_short: "\\n§G+1§!$mod_job_gts_juice_worker_add$ per $VALUE$ £pop£"
   job_gts_milk_worker: "Milk Farmer"
   job_gts_milk_worker_with_icon: "£job_resort_worker£$job_gts_milk_worker$"
   job_gts_milk_worker_plural: "Milk Farmers"
@@ -91,7 +93,9 @@
   job_gts_milk_worker_effect_desc: "Provides food output"
   mod_job_gts_milk_worker_add: "$job_gts_milk_worker$ jobs"
   mod_job_gts_milk_worker_per_pop: "§G+1§! $job_gts_milk_worker$ job per $VALUE$ population"
-  mod_job_gts_milk_worker_per_pop_short: "\n§G+1§!$mod_job_gts_milk_worker_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_milk_worker_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_milk_worker_add$
+  mod_job_gts_milk_worker_per_pop_short: "\\n§G+1§!$mod_job_gts_milk_worker_add$ per $VALUE$ £pop£"
   job_gts_semen_worker: "Sperm Fish Breeder"
   job_gts_semen_worker_with_icon: "£job_resort_worker£$job_gts_semen_worker$"
   job_gts_semen_worker_plural: "Sperm Fish Breeders"
@@ -100,7 +104,9 @@
   job_gts_semen_worker_effect_desc: "Provides food output"
   mod_job_gts_semen_worker_add: "$job_gts_semen_worker$ jobs"
   mod_job_gts_semen_worker_per_pop: "§G+1§! $job_gts_semen_worker$ job per $VALUE$ population"
-  mod_job_gts_semen_worker_per_pop_short: "\n§G+1§!$mod_job_gts_semen_worker_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_semen_worker_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_semen_worker_add$
+  mod_job_gts_semen_worker_per_pop_short: "\\n§G+1§!$mod_job_gts_semen_worker_add$ per $VALUE$ £pop£"
   job_gts_shit_worker: "Shit Worm"
   job_gts_shit_worker_with_icon: "£job_resort_worker£$job_gts_shit_worker$"
   job_gts_shit_worker_plural: "Shit Worms"
@@ -109,7 +115,9 @@
   job_gts_shit_worker_effect_desc: "Provides mineral output"
   mod_job_gts_shit_worker_add: "$job_gts_shit_worker$ jobs"
   mod_job_gts_shit_worker_per_pop: "§G+1§! $job_gts_shit_worker$ job per $VALUE$ population"
-  mod_job_gts_shit_worker_per_pop_short: "\n§G+1§!$mod_job_gts_shit_worker_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_shit_worker_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_shit_worker_add$
+  mod_job_gts_shit_worker_per_pop_short: "\\n§G+1§!$mod_job_gts_shit_worker_add$ per $VALUE$ £pop£"
   job_gts_urine_worker: "Pee Pot"
   job_gts_urine_worker_with_icon: "£job_resort_worker£$job_gts_urine_worker$"
   job_gts_urine_worker_plural: "The inhabitants of the Urine World, it's impossible for them to clean the urine that has replaced the clear water. Urine has become their source of food and place of existence."
@@ -119,7 +127,9 @@
   mod_job_gts_urine_worker_add: "$job_gts_urine_worker$ jobs"
   mod_job_gts_urine_worker_per_pop: "§G+1§! $job_gts_urine_worker$ job per $VALUE$ population"
 
-  mod_job_gts_urine_worker_per_pop_short: "\n§G+1§!$mod_job_gts_urine_worker_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_urine_worker_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_urine_worker_add$
+  mod_job_gts_urine_worker_per_pop_short: "\\n§G+1§!$mod_job_gts_urine_worker_add$ per $VALUE$ £pop£"
   job_gts_dirt_worker: "Foot Bug"
   job_gts_dirt_worker_with_icon: "£job_resort_worker£$job_gts_dirt_worker$"
   job_gts_dirt_worker_plural: "Foot Bugs"
@@ -411,7 +421,9 @@
   mod_job_gts_dirt1_add: "$job_gts_dirt1$ jobs"
   mod_job_gts_dirt1_per_pop: "§G+1§! $job_gts_dirt1$ job per $VALUE$ population"
 
-  mod_job_gts_dirt1_per_pop_short: "\n§G+1§!$mod_job_gts_dirt1_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt1_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt1_add$
+  mod_job_gts_dirt1_per_pop_short: "\\n§G+1§!$mod_job_gts_dirt1_add$ per $VALUE$ £pop£"
   job_gts_dirt2: "Foot Bug Miner"
   job_gts_dirt2_with_icon: "£job_resort_worker£$job_gts_dirt2$"
   job_gts_dirt2_plural: "Foot Bug Miners"
@@ -421,7 +433,9 @@
   mod_job_gts_dirt2_add: "$job_gts_dirt2$ jobs"
   mod_job_gts_dirt2_per_pop: "§G+1§! $job_gts_dirt2$ job per $VALUE$ population"
 
-  mod_job_gts_dirt2_per_pop_short: "\n§G+1§!$mod_job_gts_dirt2_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt2_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt2_add$
+  mod_job_gts_dirt2_per_pop_short: "\\n§G+1§!$mod_job_gts_dirt2_add$ per $VALUE$ £pop£"
   job_gts_dirt3: "Foot Bug Farmer"
   job_gts_dirt3_with_icon: "£job_resort_worker£$job_gts_dirt3$"
   job_gts_dirt3_plural: "Foot Bug Farmers"
@@ -431,7 +445,9 @@
   mod_job_gts_dirt3_add: "$job_gts_dirt3$ jobs"
   mod_job_gts_dirt3_per_pop: "§G+1§! $job_gts_dirt3$ job per $VALUE$ population"
 
-  mod_job_gts_dirt3_per_pop_short: "\n§G+1§!$mod_job_gts_dirt3_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt3_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt3_add$
+  mod_job_gts_dirt3_per_pop_short: "\\n§G+1§!$mod_job_gts_dirt3_add$ per $VALUE$ £pop£"
   job_gts_dirt4: "Foot Bug Warrior"
   job_gts_dirt4_with_icon: "£job_resort_worker£$job_gts_dirt4$"
   job_gts_dirt4_plural: "Foot Bug Warriors"
@@ -441,7 +457,9 @@
   mod_job_gts_dirt4_add: "$job_gts_dirt4$ jobs"
   mod_job_gts_dirt4_per_pop: "§G+1§! $job_gts_dirt4$ job per $VALUE$ population"
 
-  mod_job_gts_dirt4_per_pop_short: "\n§G+1§!$mod_job_gts_dirt4_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt4_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt4_add$
+  mod_job_gts_dirt4_per_pop_short: "\\n§G+1§!$mod_job_gts_dirt4_add$ per $VALUE$ £pop£"
   job_gts_dirt5: "Foot Bug Smelter"
   job_gts_dirt5_with_icon: "£job_resort_worker£$job_gts_dirt5$"
   job_gts_dirt5_plural: "Foot Bug Smelters"
@@ -451,7 +469,9 @@
   mod_job_gts_dirt5_add: "$job_gts_dirt5$ jobs"
   mod_job_gts_dirt5_per_pop: "§G+1§! $job_gts_dirt5$ job per $VALUE$ population"
 
-  mod_job_gts_dirt5_per_pop_short: "\n§G+1§!$mod_job_gts_dirt5_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt5_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt5_add$
+  mod_job_gts_dirt5_per_pop_short: "\\n§G+1§!$mod_job_gts_dirt5_add$ per $VALUE$ £pop£"
   job_gts_dirt6: "Foot Bug Instructor"
   job_gts_dirt6_with_icon: "£job_resort_worker£$job_gts_dirt6$"
   job_gts_dirt6_plural: "Foot Bug Instructors"
@@ -461,7 +481,9 @@
   mod_job_gts_dirt6_add: "$job_gts_dirt6$ jobs"
   mod_job_gts_dirt6_per_pop: "§G+1§! $job_gts_dirt6$ job per $VALUE$ population"
 
-  mod_job_gts_dirt6_per_pop_short: "\n§G+1§!$mod_job_gts_dirt6_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt6_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt6_add$
+  mod_job_gts_dirt6_per_pop_short: "\\n§G+1§!$mod_job_gts_dirt6_add$ per $VALUE$ £pop£"
   job_gts_dirt7: "Advanced Foot Bug Miner"
   job_gts_dirt7_with_icon: "£job_resort_worker£$job_gts_dirt7$"
   job_gts_dirt7_plural: "Advanced Foot Bug Miners"
@@ -470,7 +492,9 @@
   job_gts_dirt7_effect_desc: "Provides mineral output"
   mod_job_gts_dirt7_add: "$job_gts_dirt7$ jobs"
   mod_job_gts_dirt7_per_pop: "§G+1§! $job_gts_dirt7$ job per $VALUE$ population"
-  mod_job_gts_dirt7_per_pop_short: "\n§G+1§!$mod_job_gts_dirt7_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt7_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt7_add$
+  mod_job_gts_dirt7_per_pop_short: "\\n§G+1§!$mod_job_gts_dirt7_add$ per $VALUE$ £pop£"
   job_gts_dirt8: "Foot Bug Refiner"
   job_gts_dirt8_with_icon: "£job_resort_worker£$job_gts_dirt8$"
   job_gts_dirt8_plural: "Foot Bug Refiners"
@@ -480,7 +504,9 @@
   mod_job_gts_dirt8_add: "$job_gts_dirt8$ jobs"
   mod_job_gts_dirt8_per_pop: "§G+1§! $job_gts_dirt8$ job per $VALUE$ population"
 
-  mod_job_gts_dirt8_per_pop_short: "\n§G+1§!$mod_job_gts_dirt8_add$ per $VAUE$ £pop£"
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt8_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt8_add$
+  mod_job_gts_dirt8_per_pop_short: "\\n§G+1§!$mod_job_gts_dirt8_add$ per $VALUE$ £pop£"
   job_gts_dirt9: "Advanced Foot Bug Farmer"
   job_gts_dirt9_with_icon: "£job_resort_worker£$job_gts_dirt9$"
   job_gts_dirt9_plural: "Advanced Foot Bug Farmers"
@@ -490,8 +516,9 @@
   mod_job_gts_dirt9_add: "$job_gts_dirt9$ jobs"
   mod_job_gts_dirt9_per_pop: "§G+1§! $job_gts_dirt9$ job per $VALUE$ population"
 
-  mod_job_gts_dirt9_per_pop_short: "\n§G+1§!$mod_job_gts_dirt9_add$ per $VAUE$ £pop£"
-  # Foot Filth Planet Events
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt9_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_dirt9_add$
+  mod_job_gts_dirt9_per_pop_short: "\\n§G+1§!$mod_job_gts_dirt9_add$ per $VALUE$ £pop£"
   gts_ap_planet.4000.name: "§Y[Root.GetName]§! Turns Into a Foot Filth Planet!"
   gts_ap_planet.4000.desc: "Facing the small §Y[Root.GetName]§! between her foot pads, §M[event_target:gts_planet_leader.GetName]§! smiles faintly, slowly closing her feet. The fleshy, dirty curtain blocks the sunlight, her feet are slender and beautiful, the toenails are painted with beautiful patterns, and they are trimmed round and smooth. However, at this moment, this pair of luxurious feet are already covered with dirt and sweat in thick stockings and boots. Under the wrap of sweat and dirt, the originally crystal clear toes look extremely lewd and unbearable. She skillfully moved her feet, firmly stepping on this small planet between the soles of her feet.\n\nHeavily crushed by her stinky feet, a steady stream of sweat and dirt seeped out of her soft toes, densely staining everything in its path. Countless urban agglomerations and residential areas had to endure the trampling of her calloused soles. Under incredible pressure, these originally shining commercial streets and factories were ruthlessly crushed into dust.\n\nAs she stepped harder, more and more sweat seeped out.\n\nThat stinky juice flowed down her majestic ankles, and eventually accumulated into a dirty stream, soaking even distant planets in her filth. A nauseating, pungent stench, mixed with sweat and foot odor, permeated the air, covering the entire §Y[Root.GetName]§! and turning the original fresh air into history.\n\nEach turn and step would smear more dirt and sweat on it. The original smooth surface of the planet was now covered with her footprints and sweat stains, looking very dirty and obscene. The huge planet was defiled and ravaged by her with such ease, yet it never had the ability to resist.\n\nThere are a total of §R[Root.dirt_kia]§! people on §Y[Root.GetName]§! who were forever buried under tens of kilometers of foot filth, and §R[Root.dirt_city_kia]§! cities were crushed into powder by giant feet. Presumably, the destruction of these populations brought her great pleasure."
   gts_ap_planet.4000.a.tooltip: "Gain 4 months of unity and 200 leader experience for each population consumed!"
@@ -628,7 +655,6 @@
   mod_district_oscillator_3_max: "Maximum $district_oscillator_3$"
   # Original: §Y[Root.GetName]§!是一颗有着深蓝大海和翠绿森林的美丽星球，以至于博士小姐一想到要用自己的丁丁把它改造成布满着白浊的精液星球，就感到一丝不舍……还有些许罪恶。在这种罪恶感的鼓动下，博士小姐近万公里长的巨根早已按捺不住冲出内裤之外，在即将被凌辱的行星上投下遮天蔽日的阴影。行星上的居民绝望地看着天空，而野生动物也躁动起来，无谓的寻找可以避难的地方。\n\n博士小姐小心地用手撸动着巨大的阴茎，感受着精液和血液在肉棒中呼之欲出，想象着地面上的景象并为小人们感到悲哀又兴奋着。终于，精液从马眼喷射而出，数以亿万吨的精液砸进了大海，掀起比大气层还要高的巨浪，无数岛屿连反应的时间都没有，就被永远的埋没在粘稠的白浊之下了。而如同大陆一般的精液块，裹挟着数以百亿计的精子滚滚落下，滨海城市被充满着腥臭泡沫的巨浪所淹没，无知而凶暴的精子肆虐着碾碎城市和小人，把白色的粘稠精液都变成了粉色。\n\n然而博士小姐还没有结束，她的巨根依然坚挺，于是就将滴落着天体级精液的阴茎直接抵到还未精液所波及的半球上去。滑溜溜的肉棒毫无顾忌地推平了森林和城市，留下一道流着腥臭精液的地峡连接着沸腾的大海。博士小姐用双手轻轻地抱着沾满精液的星球，来回地蹭着自己灼热跳动的肉棒，本就不多的大陆被彻底破碎，不停射出的精液变成了新的高山。粘稠又温热的精液终于覆盖了整个星球，白浊的粘液代替了海洋和大陆，甚至连近地轨道上都布满着星星点点的精液环带。完成使命的博士小姐轻轻地用手划过这颗星球乳白色的表面，撇走一些多余的精液好让为数不多的一些陆地从温热的精海中露出头来。她用柔软的舌头，品尝着自己的种子的味道，连带着把几百万幸存者一起温柔地吞进肚子里。从舌尖滴下的精液粘在了制服上，让博士小姐显得无比地妩媚。\n\n§Y[Root.GetName]§!的地表已经不能承受更多的精液了，但博士小姐好像还没有满足……至于这颗行星上的居民，他们很快就会为自己的家园变得生机勃勃而兴奋起来的。
   #  §Y[Root.GetName]§!是一颗有着深蓝大海和翠绿森林的美丽星球，以至于博士小姐一想到要用自己的鸡鸡把它改造成布满着白浊的精液星球，就感到一丝不舍……还有些许罪恶。在这种罪恶感的鼓动下，博士小姐近万公里长的巨根早已按捺不住冲出内裤之外，在即将被凌辱的行星上投下遮天蔽日的阴影。行星上的居民绝望地看着天空，而野生动物也躁动起来，无谓的寻找可以避难的地方。\n\n博士小姐小心地用手撸动着巨大的阴茎，感受着精液和血液在肉棒中呼之欲出，想象着地面上的景象并为小人们感到悲哀又兴奋着。终于，精液从马眼喷射而出，数以亿万吨的精液砸进了大海，掀起比大气层还要高的巨浪，无数岛屿连反应的时间都没有，就被永远的埋没在粘稠的白浊之下了。而如同大陆一般的精液块，裹挟着数以百亿计的精子滚滚落下，滨海城市被充满着腥臭泡沫的巨浪所淹没，无知而凶暴的精子肆虐着碾碎城市和小人，把白色的粘稠精液都变成了粉色。\n\n然而博士小姐还没有结束，她的巨根依然坚挺，于是就将滴落着天体级精液的阴茎直接抵到还未精液所波及的半球上去。滑溜溜的肉棒毫无顾忌地推平了森林和城市，留下一道流着腥臭精液的地峡连接着沸腾的大海。博士小姐用双手轻轻地抱着沾满精液的星球，来回地蹭着自己灼热跳动的肉棒，本就不多的大陆被彻底破碎，不停射出的精液变成了新的高山。粘稠又温热的精液终于覆盖了整个星球，白浊的粘液代替了海洋和大陆，甚至连近地轨道上都布满着星星点点的精液环带。完成使命的博士小姐轻轻地用手划过这颗星球乳白色的表面，撇走一些多余的精液好让为数不多的一些陆地从温热的精海中露出头来。她用柔软的舌头，品尝着自己的种子的味道，连带着把几百万幸存者一起温柔地吞进肚子里。从舌尖滴下的精液粘在了制服上，让博士小姐显得无比地妩媚。\n\n§Y[Root.GetName]§!的地表已经不能承受更多的精液了，但博士小姐好像还没有满足……至于这颗行星上的居民，他们很快就会为自己的家园变得生机勃勃而兴奋起来的。
-#  §Y[Root.GetName]§!是一颗有着深蓝大海和翠绿森林的美丽星球，以至于博士小姐一想到要用自己的鸡鸡把它改造成布满着白浊的精液星球，就感到一丝不舍……还有些许罪恶。在这种罪恶感的鼓动下，博士小姐近万公里长的巨根早已按捺不住冲出内裤之外，在即将被凌辱的行星上投下遮天蔽日的阴影。行星上的居民绝望地看着天空，而野生动物也躁动起来，无谓的寻找可以避难的地方。\n\n博士小姐小心地用手撸动着巨大的阴茎，感受着精液和血液在肉棒中呼之欲出，想象着地面上的景象并为小人们感到悲哀又兴奋着。终于，精液从马眼喷射而出，数以亿万吨的精液砸进了大海，掀起比大气层还要高的巨浪，无数岛屿连反应的时间都没有，就被永远的埋没在粘稠的白浊之下了。而如同大陆一般的精液块，裹挟着数以百亿计的精子滚滚落下，滨海城市被充满着腥臭泡沫的巨浪所淹没，无知而凶暴的精子肆虐着碾碎城市和小人，把白色的粘稠精液都变成了粉色。\n\n然而博士小姐还没有结束，她的巨根依然坚挺，于是就将滴落着天体级精液的阴茎直接抵到还未精液所波及的半球上去。滑溜溜的肉棒毫无顾忌地推平了森林和城市，留下一道流着腥臭精液的地峡连接着沸腾的大海。博士小姐用双手轻轻地抱着沾满精液的星球，来回地蹭着自己灼热跳动的肉棒，本就不多的大陆被彻底破碎，不停射出的精液变成了新的高山。粘稠又温热的精液终于覆盖了整个星球，白浊的粘液代替了海洋和大陆，甚至连近地轨道上都布满着星星点点的精液环带。完成使命的博士小姐轻轻地用手划过这颗星球乳白色的表面，撇走一些多余的精液好让为数不多的一些陆地从温热的精海中露出头来。她用柔软的舌头，品尝着自己的种子的味道，连带着把几百万幸存者一起温柔地吞进肚子里。从舌尖滴下的精液粘在了制服上，让博士小姐显得无比地妩媚。\n\n§Y[Root.GetName]§!的地表已经不能承受更多的精液了，但博士小姐好像还没有满足……至于这颗行星上的居民，他们很快就会为自己的家园变得生机勃勃而兴奋起来的。
   gts_ap_planet.3002.desc: "§Y[Root.GetName]§! is a beautiful planet with deep blue oceans and emerald forests, so much so that the Doctor feels a pang of reluctance... and a hint of guilt at the thought of using her own dick to transform it into a planet covered in cloudy white semen. Stirred by this guilt, the Doctor's giant root, nearly ten thousand kilometers long, could no longer be held back and burst out of her panties, casting a sky-obscuring shadow over the planet about to be humiliated. The inhabitants of the planet looked desperately at the sky, while wild animals became restless, searching futilely for places to hide.\\n\\nThe Doctor carefully stroked her giant penis with her hand, feeling the semen and blood ready to burst forth within the meat rod, imagining the scene on the ground and feeling both sorrow and excitement for the tiny people. Finally, semen sprayed from the urethra, billions of tons of semen smashing into the ocean, raising waves higher than the atmosphere. Countless islands were buried forever under the sticky white turbidity without even time to react. Like continents, blocks of semen, carrying tens of billions of sperm, rolled down. Coastal cities were submerged by giant waves full of fishy-smelling foam. Ignorant and ferocious sperm raged, crushing cities and tiny people, turning the white sticky semen pink.\\n\\nHowever, the Doctor was not finished yet. Her giant root remained erect, so she pressed the penis, dripping with celestial-grade semen, directly against the hemisphere not yet affected by the semen. The slippery meat rod recklessly flattened forests and cities, leaving a isthmus flowing with fishy semen connecting the boiling oceans. The Doctor gently hugged the semen-covered planet with both hands, rubbing her hot, throbbing meat rod back and forth. The scarce continents were completely shattered, and the continuously ejaculating semen turned into new high mountains. Sticky and warm semen finally covered the entire planet. White turbid mucus replaced oceans and continents, and even the near-earth orbit was covered with scattered rings of semen. Having completed her mission, the Doctor gently stroked the milky white surface of the planet with her hand, skimming off some excess semen to let a few remaining pieces of land emerge from the warm sea of semen. With her soft tongue, she tasted the flavor of her own seed, gently swallowing millions of survivors along with it. Semen dripping from the tip of her tongue stuck to her uniform, making the Doctor look incredibly charming.\\n\\nThe surface of §Y[Root.GetName]§! can no longer bear anymore semen, but the Doctor seems not satisfied yet... As for the residents on this planet, they will soon be excited about their home becoming vibrant."
   gts_ap_planet.3002.a.tooltip: "§RYou wish!§!"
   # Original: 非常的新鲜……非常的……呕！
@@ -643,13 +669,11 @@
   gts_ap_planet.5002.a.tooltip: "Endless enjoyment is endless punishment!"
   # Original: §Y[Root.GetName]§!是一颗无趣的干燥行星，无垠的沙漠和稀树草原几乎覆盖了一切。颂汐早就迫不及待地，计划着一展拳脚把它改造成自己喜欢的样子了。\n\n不过也许是因为昨天吃喝玩乐得太过尽兴的缘故，抑或是超空间内出现了一点湍流，当颂汐到达§Y[Root.GetName]§!时，即使还在用手捂着内裤，圣水已经在不断地流出。她已经来不及脱下内裤，顿时圣洁的小便和污秽的大便一齐倾泻而出，将本来洁白的棉质内裤整个打湿，染成了一股子浓茶的颜色。\n\n颂汐是第一次感到在小人面前如此的害羞，即便作为经常使用行星自慰的天体级巨娘来说，在亿万小人面前拉在裤子里也是头一回。仿佛§Y[Root.GetName]§!上的小人都在嘲笑自己一样，颂汐决定狠狠地惩罚这里的小人们，她毫不犹豫地脱下灌满了排泄物的内裤，直接倒扣过来扔在行星上面。数千公里长的巨大内裤，还夹带着亿万吨计的排泄物，直接覆盖了行星表面的大半，无数小人即便没有被大粪给直接碾死，也正在灼热又恶臭的胖次闷杀下渐渐死亡。侥幸有些小人试图从尚未湿透的纤维里爬出来，颂汐又拨开了自己的小穴，让天洪浩荡一般的尿液倾泻而下，彻底把自己的内裤浇了个湿透，这些小人也幸福又残忍地被尿液所淹死或打碎了。\n\n看见自己的尿液和粪便正在§Y[Root.GetName]§!的干燥大地上慢慢展开，变成一片新的海洋，颂汐觉得似乎还差了点什么。这样无趣的行星可还要发挥点作用，于是她转到还没被自己排泄物污染的另一侧，直接用干燥的大地摩擦起了自己的屁股，数以百计的城市连为她擦屁股的资格都不存在，就被柔软的小屁股给直接坐碎。而能荣耀地为她肛门所临幸的，变成了大地上一道几十米厚几十千米宽，横亘小半颗星球的一条粘稠的痕迹。感谢这颗无聊的行星的地表，颂汐小姐可爱的菊穴再次变得洁净如新，等待着下一次排泄了。\n\n至于还在行星地表上挣扎的小人，几小时内那片污秽的排泄物大洋就会覆盖整颗行星，他们别无选择只有接受，这就是在银河中作为小人的命运。
   #  §Y[Root.GetName]§!是一颗无趣的干燥行星，无垠的沙漠和稀树草原几乎覆盖了一切。颂汐早就迫不及待地，计划着一展拳脚把它改造成自己喜欢的样子了。\n\n不过也许是因为昨天吃喝玩乐得太过尽兴的缘故，抑或是超空间内出现了一点湍流，当颂汐到达§Y[Root.GetName]§!时，即使还在用手捂着内裤，圣水已经在不断地流出。她已经来不及脱下内裤，顿时圣洁的小便和污秽的大便一齐倾泻而出，将本来洁白的棉质内裤整个打湿，染成了一股子浓茶的颜色。\n\n颂汐是第一次感到在小人面前如此的害羞，即便作为经常使用行星自慰的天体级巨娘来说，在亿万小人面前拉在裤子里也是头一回。仿佛§Y[Root.GetName]§!上的小人都在嘲笑自己一样，颂汐决定狠狠地惩罚这里的小人们，她毫不犹豫地脱下灌满了排泄物的内裤，直接倒扣过来扔在行星上面。数千公里长的巨大内裤，还夹带着亿万吨计的排泄物，直接覆盖了行星表面的大半，无数小人即便没有被大粪给直接碾死，也正在灼热又恶臭的胖次闷杀下渐渐死亡。侥幸有些小人试图从尚未湿透的纤维里爬出来，颂汐又拨开了自己的小穴，让天洪浩荡一般的尿液倾泻而下，彻底把自己的内裤浇了个湿透，这些小人也幸福又残忍地被尿液所淹死或打碎了。\n\n看见自己的尿液和粪便正在§Y[Root.GetName]§!的干燥大地上慢慢展开，变成一片新的海洋，颂汐觉得似乎还差了点什么。这样无趣的行星可还要发挥点作用，于是她转到还没被自己排泄物污染的另一侧，直接用干燥的大地摩擦起了自己的屁股，数以百计的城市连为她擦屁股的资格都不存在，就被柔软的小屁股给直接坐碎。而能荣耀地为她肛门所临幸的，变成了大地上一道几十米厚几十公里宽，横亘小半颗星球的一条粘稠的痕迹。感谢这颗无聊的行星的地表，颂汐小姐可爱的菊穴再次变得洁净如新，等待着下一次排泄了。\n\n至于还在行星地表上挣扎的小人，几小时内那片污秽的排泄物大洋就会覆盖整颗行星，他们别无选择只有接受，这就是在银河中作为小人的命运。
-#  §Y[Root.GetName]§!是一颗无趣的干燥行星，无垠的沙漠和稀树草原几乎覆盖了一切。颂汐早就迫不及待地，计划着一展拳脚把它改造成自己喜欢的样子了。\n\n不过也许是因为昨天吃喝玩乐得太过尽兴的缘故，抑或是超空间内出现了一点湍流，当颂汐到达§Y[Root.GetName]§!时，即使还在用手捂着内裤，圣水已经在不断地流出。她已经来不及脱下内裤，顿时圣洁的小便和污秽的大便一齐倾泻而出，将本来洁白的棉质内裤整个打湿，染成了一股子浓茶的颜色。\n\n颂汐是第一次感到在小人面前如此的害羞，即便作为经常使用行星自慰的天体级巨娘来说，在亿万小人面前拉在裤子里也是头一回。仿佛§Y[Root.GetName]§!上的小人都在嘲笑自己一样，颂汐决定狠狠地惩罚这里的小人们，她毫不犹豫地脱下灌满了排泄物的内裤，直接倒扣过来扔在行星上面。数千公里长的巨大内裤，还夹带着亿万吨计的排泄物，直接覆盖了行星表面的大半，无数小人即便没有被大粪给直接碾死，也正在灼热又恶臭的胖次闷杀下渐渐死亡。侥幸有些小人试图从尚未湿透的纤维里爬出来，颂汐又拨开了自己的小穴，让天洪浩荡一般的尿液倾泻而下，彻底把自己的内裤浇了个湿透，这些小人也幸福又残忍地被尿液所淹死或打碎了。\n\n看见自己的尿液和粪便正在§Y[Root.GetName]§!的干燥大地上慢慢展开，变成一片新的海洋，颂汐觉得似乎还差了点什么。这样无趣的行星可还要发挥点作用，于是她转到还没被自己排泄物污染的另一侧，直接用干燥的大地摩擦起了自己的屁股，数以百计的城市连为她擦屁股的资格都不存在，就被柔软的小屁股给直接坐碎。而能荣耀地为她肛门所临幸的，变成了大地上一道几十米厚几十公里宽，横亘小半颗星球的一条粘稠的痕迹。感谢这颗无聊的行星的地表，颂汐小姐可爱的菊穴再次变得洁净如新，等待着下一次排泄了。\n\n至于还在行星地表上挣扎的小人，几小时内那片污秽的排泄物大洋就会覆盖整颗行星，他们别无选择只有接受，这就是在银河中作为小人的命运。
   gts_ap_planet.5004.desc: "§Y[Root.GetName]§! is a boring dry planet, with boundless deserts and savannas covering almost everything. Sonxi had long been impatient, planning to flex her muscles and reshape it into the way she liked.\\n\\nHowever, perhaps because she ate and drank too much yesterday, or due to some turbulence in hyperspace, when Sonxi arrived at §Y[Root.GetName]§!, even though she was covering her panties with her hand, holy water was already constantly flowing out. She had no time to take off her panties; instantly, holy urine and filthy feces poured out together, completely soaking the originally pristine white cotton panties, dyeing them a strong tea color.\\n\\nFor the first time, Sonxi felt so shy in front of tiny people. Even as a celestial giantess who often uses planets for masturbation, pulling in her pants in front of billions of tiny people was a first. As if the tiny people on §Y[Root.GetName]§! were mocking her, Sonxi decided to punish the tiny people here severely. She didn't hesitate to take off her panties filled with excrement, turning them inside out and throwing them directly onto the planet. The giant panties, thousands of kilometers long, carrying billions of tons of excrement, directly covered more than half of the planet's surface. Countless tiny people, even if not directly crushed to death by the feces, were gradually dying under the suffocating kill of the hot and stinking panties. Luckily, some tiny people tried to crawl out of the fiber that was not yet soaked through. Sonxi opened her pussy again, letting urine pour down like a heavenly flood, thoroughly soaking her panties. These tiny people were also happily and cruelly drowned or smashed by the urine.\\n\\nSeeing her urine and feces slowly spreading on the dry ground of §Y[Root.GetName]§!, turning into a new ocean, Sonxi felt something was missing. Such a boring planet should play some role. So she turned to the other side not yet contaminated by her excrement and directly rubbed her butt against the dry ground. Hundreds of cities didn't even have the qualification to wipe her butt before being sat crushed by her soft little butt. What was honored to be graced by her anus turned into a sticky trail tens of meters thick and tens of kilometers wide, spanning across a small half of the planet. Thanks to the surface of this boring planet, Miss Sonxi's cute chrysanthemum became clean and new again, waiting for the next excretion.\\n\\nAs for the tiny people still struggling on the planet's surface, within a few hours that ocean of filthy Excrement will cover the entire planet. They have no choice but to accept it; this is the fate of being a tiny person in the galaxy."
   gts_ap_planet.3002.a: "Miss Doctor please fuck me too?"
   # Original: §Y[Root.GetName]§!的大海如同宝石一般美丽，陆地也像织锦一般多彩，所以当颂汐得知要把这颗行星改造成污秽的排泄行星时，一时间还以为是搞错了什么。但是能用自己的粪便玷污一颗宜居行星的机会可不能错过！于是颂汐专门饱餐一顿，来到§Y[Root.GetName]§!进行一次愉快的如厕。\n\n§Y[Root.GetName]§!上的小人，无助而绝望地看着，太空中的颂汐将她的内裤褪下，用光滑的小穴和娇嫩的后庭对准大地。无数人甚至产生了一种期待，这样完美又精致的菊花，一定不可能是用来排泄的吧，这应该只是一个露出恶作剧对吧？\n\n颂汐用一个响屁很快撕碎了小人们的一切幻想，污浊的气体直接替代了§Y[Root.GetName]§!大半大气，在原爆点几百万人被直接震碎，还有更多人因为这种恶臭而直接昏厥乃至死亡。然后真正的排泄到来了，伴随着颂汐小肚子里咕噜咕噜的声音，茶褐色的泥浆冲开粉嫩的菊花，铺天盖地一般倾泻至碧蓝的大海中。哎呀，看来这次吃的有点不太消化……颂汐有点尴尬地笑着，继续进行着自己的腹泻。足以横扫大陆的海啸携带者排泄物冲进沿海城市，让数以亿万计的小人也品尝到了巨娘昨晚吃下的食物。美丽的大海被染成了茶色，漂浮着的粘稠物替代了星罗棋布的岛屿，上升的海面让大陆的面积减少了一半。但是颂汐揉了揉肚子，又一阵浅黄色的水状排泄物喷射而出，把剩下的那些大陆也冲刷殆尽，小人们侥幸没被淹死的，忍着恶心爬上那些象征着巨娘消化不良的小岛，他们终生都要在无尽的恶臭中生活下去了。\n\n颂汐掏出纸巾，将可爱的后庭擦得光洁如新，对着星球扔下纸巾后就扬长而去了。这片暂时还带着些香气的厕纸将会成为卑贱的小人们的在腐蚀性的粪海中的唯一救赎，他们别无选择，这就是在银河中作为小人的命运。
   # Original: §Y[Root.GetName]§!上圣洁的高山覆盖大陆，无暇的白雪万年不化，本地的小人居民也因敬畏而不敢攀登，以免沾染了伟大的群山。所以当颂汐得知要用自己的粪便在这里堆成新的高峰时，心中产生着抑制不住的快感。于是她专门饱餐一顿，来到§Y[Root.GetName]§!进行一次愉快的如厕。\n\n§Y[Root.GetName]§!上的小人，惊恐而绝望地看着，太空中的颂汐将她的内裤褪下，用光滑的小穴和娇嫩的后庭对准他们圣洁的群山。无数人甚至产生了一种期待，这样完美又精致的菊花，一定不可能是用来排泄的吧，这应该只是一个露出恶作剧对吧？\n\n有那么一瞬间，小人们还以为自己的幻想成真了，颂汐憋了半天也没从菊花里放出任何东西，看来她最近吃的城市太多导致有点便秘。但是来都来了，怎么能善罢甘休？颂汐用双指玩弄着自己的小穴，淫水滴滴答答地落在冻土之上，形成了一个个冒着热气的巨大湖泊，然后金色的小便伴随着高潮从指尖喷泻而出，千万年未曾融化的白雪被尿液浇灌后变成了带着腥臭气体的洪水，轰鸣着把山间的城市冲刷而下，汇聚成了新的大海。颂汐舔了舔蘸着蜜汁的手指，紧致的后庭终于张开了大门。即使对于天体级巨娘来说，这条挤出来的褐色大便也太大了一些。小人们惊恐地看到，这根恶臭又坚硬的排泄物，下端已经碾碎了他们膜拜过千百年的群山，而上端则刚刚脱离肛门。就连颂汐也赶快抬脚，躲开这跟如同自己胳膊一般的大便，在一声轰然巨响中，这坨秽物落在了灰白色的星球之上，把地壳都砸裂开来，形成了一段数百公里高，上万公里长的巨大山脉，周边被溢出的岩浆所加热着，散发着环绕星球的不详气体。\n\n颂汐一脸舒畅地掏出纸巾，将被撑开能塞得下自己拳头的菊花里外都擦拭一圈，对着星球扔下纸巾后就扬长而去了。这片还略显洁净的厕纸将会成为卑贱的小人们的在这颗污秽的行星上的唯一圣山，他们别无选择，这就是在银河中作为小人的命运。
   #  §Y[Root.GetName]§!上圣洁的高山覆盖大陆，无暇的白雪万年不化，本地的小人居民也因敬畏而不敢攀登，以免沾染了伟大的群山。所以当颂汐得知要用自己的粪便在这里堆成新的高峰时，心中产生着抑制不住的快感。于是她专门饱餐一顿，来到§Y[Root.GetName]§!进行一次愉快的如厕。\n\n§Y[Root.GetName]§!上的小人，惊恐而绝望地看着，太空中的颂汐将她的内裤褪下，用光滑的小穴和娇嫩的后庭对准他们圣洁的群山。无数人甚至产生了一种期待，这样完美又精致的菊花，一定不可能是用来排泄的吧，这应该只是一个露出恶作剧对吧？\n\n有那么一瞬间，小人们还以为自己的幻想成真了，颂汐憋了半天也没从菊花里放出任何东西，看来她最近吃的城市太多导致有点便秘。但是来都来了，怎么能善罢甘休？颂汐用双指玩弄着自己的小穴，淫水滴滴答答地落在冻土之上，形成了一个个冒着热气的巨大湖泊，然后金色的小便伴随着高潮从指尖喷泻而出，千万年未曾融化的白雪被尿液浇灌后变成了带着腥臭气体的洪水，轰鸣着把山间的城市冲刷而下，汇聚成了新的大海。颂汐舔了舔蘸着蜜汁的手指，紧致的后庭终于张开了大门。即使对于天体级巨娘来说，这条挤出来的褐色大便也太大了一些。小人们惊恐地看到，这根恶臭又坚硬的排泄物，下端已经碾碎了他们膜拜过千百年的群山，而上端则刚刚脱离肛门。就连颂汐也赶快抬脚，躲开这跟如同自己手臂一般的大便，在一声轰然巨响中，这坨秽物落在了灰白色的星球之上，把地壳都砸裂开来，形成了一段数百公里高，上万公里长的巨大山脉，周边被溢出的岩浆所加热着，散发着环绕星球的不详气体。\n\n颂汐一脸舒畅地掏出纸巾，将被撑开能塞得下自己拳头的菊花里外都擦拭一圈，对着星球扔下纸巾后就扬长而去了。这片还略显洁净的厕纸将会成为卑贱的小人们的在这颗污秽的行星上的唯一圣山，他们别无选择，这就是在银河中作为小人的命运。
-#  §Y[Root.GetName]§!上圣洁的高山覆盖大陆，无暇的白雪万年不化，本地的小人居民也因敬畏而不敢攀登，以免沾染了伟大的群山。所以当颂汐得知要用自己的粪便在这里堆成新的高峰时，心中产生着抑制不住的快感。于是她专门饱餐一顿，来到§Y[Root.GetName]§!进行一次愉快的如厕。\n\n§Y[Root.GetName]§!上的小人，惊恐而绝望地看着，太空中的颂汐将她的内裤褪下，用光滑的小穴和娇嫩的后庭对准他们圣洁的群山。无数人甚至产生了一种期待，这样完美又精致的菊花，一定不可能是用来排泄的吧，这应该只是一个露出恶作剧对吧？\n\n有那么一瞬间，小人们还以为自己的幻想成真了，颂汐憋了半天也没从菊花里放出任何东西，看来她最近吃的城市太多导致有点便秘。但是来都来了，怎么能善罢甘休？颂汐用双指玩弄着自己的小穴，淫水滴滴答答地落在冻土之上，形成了一个个冒着热气的巨大湖泊，然后金色的小便伴随着高潮从指尖喷泻而出，千万年未曾融化的白雪被尿液浇灌后变成了带着腥臭气体的洪水，轰鸣着把山间的城市冲刷而下，汇聚成了新的大海。颂汐舔了舔蘸着蜜汁的手指，紧致的后庭终于张开了大门。即使对于天体级巨娘来说，这条挤出来的褐色大便也太大了一些。小人们惊恐地看到，这根恶臭又坚硬的排泄物，下端已经碾碎了他们膜拜过千百年的群山，而上端则刚刚脱离肛门。就连颂汐也赶快抬脚，躲开这跟如同自己手臂一般的大便，在一声轰然巨响中，这坨秽物落在了灰白色的星球之上，把地壳都砸裂开来，形成了一段数百公里高，上万公里长的巨大山脉，周边被溢出的岩浆所加热着，散发着环绕星球的不详气体。\n\n颂汐一脸舒畅地掏出纸巾，将被撑开能塞得下自己拳头的菊花里外都擦拭一圈，对着星球扔下纸巾后就扬长而去了。这片还略显洁净的厕纸将会成为卑贱的小人们的在这颗污秽的行星上的唯一圣山，他们别无选择，这就是在银河中作为小人的命运。
   gts_ap_planet.5003.desc: "Holy mountains covered the continents of §Y[Root.GetName]§!, crowned with pristine snow that had remained unmelted for ten thousand years. The local tiny residents revered them with such awe that they dared not ascend, lest they defile the great peaks. Thus, when Sonxi learned that she would pile her own feces here to form brand-new summits, an uncontrollable thrill surged within her heart. After feasting heartily, she arrived at §Y[Root.GetName]§! for a delightful bowel movement.\\n\\nThe tiny people on §Y[Root.GetName]§! looked up in terror and despair as Sonxi, floating in the vacuum of space, slid down her panties and aimed her smooth slit and delicate anus directly at their holy mountain range. Countless tinies even harbored a desperate glimmer of hope: such a flawless, exquisite chrysanthemum could never possibly be used for excretion—this had to be merely an exhibitionist prank, right?\\n\\nFor a fleeting moment, the tiny people thought their fantasies had come true; Sonxi strained for quite a while without releasing anything from her anus, apparently suffering from a bout of constipation after devouring far too many cities lately. But having come all this way, how could she simply give up? Toying with her slit with two fingers, dripping lewd juices fell upon the permafrost, pooling into massive steaming lakes. Golden urine then sprayed forth from between her fingers with her climax, soaking the eternal snow that had never melted for eons and turning it into a roaring flood laden with foul stench, sweeping away the mountainous cities below and pooling into a brand-new ocean. Sonxi licked her honey-coated fingers as her tight anus finally parted its gates. Even for a celestial-scale giantess, this freshly squeezed brown turd was excessively enormous. The tinies watched in sheer horror as the lower end of this pungent, rock-hard excretion had already crushed the mountains they had worshipped for millennia while its upper end was only just emerging from her anus. Even Sonxi hastily lifted her feet to dodge the giant log as thick as her own arm; with a deafening crash, the filth slammed onto the greyish planet, cracking the crust wide open and forming a colossal mountain range hundreds of kilometers high and tens of thousands of kilometers long, heated by overflowing magma and exuding an ominous miasma that enveloped the entire world.\\n\\nWearing a blissful expression of relief, Sonxi took out a tissue to thoroughly wipe inside and out her gaping chrysanthemum—stretched wide enough to accommodate her own fist—before tossing the paper onto the planet and strolling away. This relatively clean sheet of toilet paper would become the only holy mountain remaining for the wretched tiny people on this defiled planet; they had no choice, for such was the fate of being a tiny person in the galaxy."
   job_gts_juice_merchant: "Love Fluid Merchant"
   # Original: £job_merchant£$job_merchant$
@@ -665,8 +689,9 @@
   # Original: 每$VALUE$人口§G+1§!$job_gts_juice_merchant$岗位
   mod_job_gts_juice_merchant_per_pop: "Every $VALUE$ Pops §G+1§! $job_gts_juice_merchant$ Job"
   # Original: \n每$VAUE$£pop£§G+1§!$mod_job_gts_juice_merchant_add$
-  mod_job_gts_juice_merchant_per_pop_short: "\nEvery $VAUE$ £pop£§G+1§! $mod_job_gts_juice_merchant_add$"
-  # Original: 爱液潮汐工程师
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_juice_merchant_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_juice_merchant_add$
+  mod_job_gts_juice_merchant_per_pop_short: "\\n§G+1§!$mod_job_gts_juice_merchant_add$ per $VALUE$ £pop£"
   job_gts_juice_technician: "Love Fluid Tidal Engineer"
   # Original: £job_technician£$job_technician$
   job_gts_juice_technician_with_icon: "£job_technician£$job_technician$"
@@ -681,8 +706,9 @@
   # Original: 每$VALUE$人口§G+1§!$job_gts_juice_technician$岗位
   mod_job_gts_juice_technician_per_pop: "Every $VALUE$ Pops §G+1§! $job_gts_juice_technician$ Job"
   # Original: \n每$VAUE$£pop£§G+1§!$mod_job_gts_juice_technician_add$
-  mod_job_gts_juice_technician_per_pop_short: "\nEvery $VAUE$ £pop£§G+1§! $mod_job_gts_juice_technician_add$"
-  # Original: 爱液星球舰船改装庇护所
+  #  \n每$VALUE$£pop£§G+1§!$mod_job_gts_juice_technician_add$
+#  \n每$VALUE$£pop£§G+1§!$mod_job_gts_juice_technician_add$
+  mod_job_gts_juice_technician_per_pop_short: "\\n§G+1§!$mod_job_gts_juice_technician_add$ per $VALUE$ £pop£"
   building_gts_bruh_juice_colony_shelter: "Love Fluid Planet Ship Refit Shelter"
   # Original: 由一艘殖民船的剩余部分改装，作为登陆爱液星球的临时据点
   building_gts_bruh_juice_colony_shelter_desc: "Refitted from the remaining parts of a colony ship, serving as a temporary base for landing on the Love Fluid Planet"
@@ -694,7 +720,6 @@
   building_gts_bruh_juice_major_capital: "Love Fluid Industrial Center"
   # Original: §G巨大的蒸馏塔林立其中，庞大的管道网络连接着精炼塔与合成中心，每日处理着海量的爱液，原始爱液在此分离成高纯度催情剂与纯净营养基质。自动化机械在黏滑的爱液池中运作，刺鼻浓郁的荷尔蒙蒸汽从排气塔喷涌而出，虽然厂区通风系统持续喷洒中和剂试图维持理性工作环境，但工人们仍然必须依赖强效的呼吸装置才能在此长期工作§!
   #  §G巨大的蒸馏塔林立其中，庞大的管道网络连接着精炼塔与合成中心，每日处理着巨量的爱液，原始爱液在此分离成高纯度催情剂与纯净营养基质。自动化机械在黏滑的爱液池中运作，刺鼻浓郁的荷尔蒙蒸汽从排气塔喷涌而出，虽然厂区通风系统持续喷洒中和剂试图维持理性工作环境，但工人们仍然必须依赖强效的呼吸装置才能在此长期工作§!
-#  §G巨大的蒸馏塔林立其中，庞大的管道网络连接着精炼塔与合成中心，每日处理着巨量的爱液，原始爱液在此分离成高纯度催情剂与纯净营养基质。自动化机械在黏滑的爱液池中运作，刺鼻浓郁的荷尔蒙蒸汽从排气塔喷涌而出，虽然厂区通风系统持续喷洒中和剂试图维持理性工作环境，但工人们仍然必须依赖强效的呼吸装置才能在此长期工作§!
   building_gts_bruh_juice_major_capital_desc: "§GHuge distillation towers stand in it. A huge pipeline network connects refining towers and synthesis centers, processing immense volumes of love fluid daily. The raw love fluid is separated here into high-purity aphrodisiacs and pure nutrient matrix. Automated machinery operates in slippery love fluid pools, and pungent, dense hormone steam spews from the exhaust towers. Although the plant's ventilation system continuously sprays neutralizing agents in an attempt to maintain a rational working environment, workers must still rely on potent breathing apparatuses to work here long-term§!"
   building_gts_bruh_juice_system_capital: "Love Fluid Industrial Megastructure"
   # Original: §G这座庞大的工业都市漂浮于爱液海洋之上，是爱液工业的巅峰之作，爱液精炼与贸易的核心。外围的工业复合体由无数管道、储罐和自动化生产线组成，整合了采集、精炼、合成与物流系统，日夜分离与提纯爱液，将原始爱液转化为各种高附加值产品。都市中央的爱液交易所更是星系级的贸易中心，无数商船前来采购这颗星球的独特的"特产"。星际贸易港口每天都有满载爱液产品的货船起航，运往星际市场。尽管整座城市都弥漫着浓郁的雌性荷尔蒙，但没人能否认它的繁荣§!
@@ -711,7 +736,6 @@
   building_gts_bruh_milk_major_capital: "Milk Irrigation Hub"
   # Original: §G由乳汁分离塔与垂直农场构成，高效分离乳汁中的乳脂并优化灌溉效率。自动化系统调节不同作物所需的乳汁养分浓度，接着从中央蓄乳池通过管道向周边数万亩适应乳汁环境的基因作物精准输送经过营养配比的乳汁混合物§!
   #  §G由乳汁分离塔与垂直农场构成，高效分离乳汁中的乳脂并最佳化灌溉效率。自动化系统调节不同作物所需的乳汁养分浓度，接着从中央蓄乳池通过管道向周边数万亩适应乳汁环境的基因作物精准输送经过营养配比的乳汁混合物§!
-#  §G由乳汁分离塔与垂直农场构成，高效分离乳汁中的乳脂并最佳化灌溉效率。自动化系统调节不同作物所需的乳汁养分浓度，接着从中央蓄乳池通过管道向周边数万亩适应乳汁环境的基因作物精准输送经过营养配比的乳汁混合物§!
   building_gts_bruh_milk_major_capital_desc: "§GComposed of milk separation towers and vertical farms, efficiently separating milk fat from milk and optimizing irrigation efficiency. The automated system adjusts the milk nutrient concentration required by different crops, and then accurately transports the milk mixture with nutritional ratio from the central milk storage pool through pipelines to tens of thousands of acres of genetic crops adapted to the milk environment around§!"
   building_gts_bruh_milk_system_capital: "Milk Ecological City"
   # Original: §G这座覆盖大片乳汁海洋的超级农业都市，是乳汁星球农业与经济的终极体现，完全依托乳汁运作，彻底重构了星球的农业生态。数条乳汁运河贯穿全境，都市外围是广袤的自动化农场，而中心则设有星际贸易港口，将乳汁产品运往整个星系。这座都市已成为星系级的农业奇观，其产出养活数十个世界，尽管所有食物都带着淡淡的奶腥味§!
@@ -722,19 +746,16 @@
   building_gts_bruh_semen_colony_shelter_desc: "Refitted from the remaining parts of a colony ship, serving as a temporary base for landing on the Semen Planet"
   # Original: 精液养殖泻湖
   #  精液养殖潟湖
-#  精液养殖潟湖
   building_gts_bruh_semen_capital: "Semen Culture Lagoon"
-#  §G漂浮在精液海洋上的开放式养殖设施，由抗腐蚀合金搭建的网状平台分割出数十个巨型潟湖。黏稠的精液在潟湖中翻涌，偶尔能看到长达百米的阴影在白色液体下游过，每个潟湖中都有着扶她巨娘精液中的未成熟超巨型精子幼体。定居点中央有着精泵塔，日夜抽取星球表面的原始精液泵入培育池中维持养殖系统运作，未经处理的精浆常导致精垢堵塞管线，使空气中弥漫着精胺的刺鼻腥膻味§!\n§R此设施简陋且事故频发(每年约12%的工人因意外而被精子吞噬)§!
+  #  §G漂浮在精液海洋上的开放式养殖设施，由抗腐蚀合金搭建的网状平台分割出数十个巨型潟湖。黏稠的精液在潟湖中翻涌，偶尔能看到长达百米的阴影在白色液体下游过，每个潟湖中都有着扶她巨娘精液中的未成熟超巨型精子幼体。定居点中央有着精泵塔，日夜抽取星球表面的原始精液泵入培育池中维持养殖系统运作，未经处理的精浆常导致精垢堵塞管线，使空气中弥漫着精胺的刺鼻腥膻味§!\n§R此设施简陋且事故频发(每年约12%的工人因意外而被精子吞噬)§!
   building_gts_bruh_semen_capital_desc: "§GOpen culture facilities floating on the Semen ocean, divided into dozens of giant lagoons by mesh platforms built of corrosion-resistant alloys. Viscous semen churns in the lagoon, and occasionally shadows hundreds of meters long can be seen swimming under the white liquid. Each lagoon contains immature super giant sperm larvae from Futa Giantess semen. There is a Semen Pump Tower in the center of the settlement, pumping primitive semen from the planet's surface into the breeding pool day and night to maintain the operation of the breeding system. Untreated seminal plasma often causes sperm scales to clog pipelines, filling the air with the pungent smell of spermine§!\\n§RThis facility is crude and prone to accidents (about 12% of workers are swallowed by sperm due to accidents every year)§!"
   building_gts_bruh_semen_major_capital: "Semen Storage Facility"
   # Original: §G这些巨大的精液蓄养池覆盖了大片海域，直径数百公里的球形蓄养池半浸在精液海中，其中可见长达千米的生物在精液深处规律游动，这些半透明的庞然生物在浑浊精液中若隐若现，偶尔撞击围栏的震动能使整个设施剧烈摇晃。蓄养池内蓄养着进入快速生长期的超巨型精子，自动化喂食器定时投放高浓度荷尔蒙饲料，促进精子生长至千米级规模。精液循环泵不断从精液海洋抽取新鲜精液，以维持精子最佳活性§!
   #  §G这些巨大的精液蓄养池覆盖了大片海域，直径数百公里的球形蓄养池半浸在精液海中，其中可见长达公里的生物在精液深处规律游动，这些半透明的庞然生物在浑浊精液中若隐若现，偶尔撞击围栏的震动能使整个设施剧烈摇晃。蓄养池内蓄养着进入快速生长期的超巨型精子，自动化喂食器定时投放高浓度荷尔蒙饲料，促进精子生长至公里级规模。精液循环泵不断从精液海洋抽取新鲜精液，以维持精子最佳活性§!
-#  §G这些巨大的精液蓄养池覆盖了大片海域，直径数百公里的球形蓄养池半浸在精液海中，其中可见长达公里的生物在精液深处规律游动，这些半透明的庞然生物在浑浊精液中若隐若现，偶尔撞击围栏的震动能使整个设施剧烈摇晃。蓄养池内蓄养着进入快速生长期的超巨型精子，自动化喂食器定时投放高浓度荷尔蒙饲料，促进精子生长至公里级规模。精液循环泵不断从精液海洋抽取新鲜精液，以维持精子最佳活性§!
   building_gts_bruh_semen_major_capital_desc: "§GThese huge semen storage pools cover a large area of the sea. Spherical storage pools with a diameter of hundreds of kilometers are semi-immersed in the Semen sea, where kilometer-long creatures can be seen swimming regularly in the depths of the semen. These translucent colossal creatures loom in the turbid semen, and the vibration of occasionally hitting the fence can shake the entire facility violently. The storage pool keeps super giant sperm entering the rapid growth phase. Automated feeders regularly release high-concentration hormone feed to promote sperm growth to a kilometer-level scale. Semen circulation pumps continuously pump fresh semen from the Semen ocean to maintain optimal sperm activity§!"
   building_gts_bruh_semen_system_capital: "Semen Mega Port"
   # Original: §G这座横跨精液海洋的庞然巨构，是精液星球的经济与军事核心，也是星系级精子养殖业的出口枢纽。在港口下方，深达数百公里的精液海中游弋着成熟的超巨型精子，这些体长超过200公里的活体兵器，在荷尔蒙诱导剂的引导下，如舰队般等待部署，透过特制的观察窗，甚至隐约可见它们如山脉般的躯体在黏稠精液中缓缓蠕动。当运输舰抵达时，港口底部的活体装载舱便会释放雌性信息素，引导这些庞然生物游入，它们靠近时的每一次摆动都会掀起滔天精浪，将港口上的粗心工人卷入精液海中§!\n\n§Y已解锁超巨型精子单位(可在此星球生产)§!
   #  §G这座横跨精液海洋的庞然巨构，是精液星球的经济与军事核心，也是星系级精子养殖业的出口枢纽。在港口下方，深达数百公里的精液海中游弋着成熟的超巨型精子，这些体长超过200公里的活体兵器，在荷尔蒙诱导剂的引导下，如舰队般等待部署，透过特制的观察窗，甚至隐约可见它们如山脉般的躯体在黏稠精液中缓缓蠕动。当运输舰抵达时，港口底部的活体装载舱便会释放雌性费洛蒙，引导这些庞然生物游入，它们靠近时的每一次摆动都会掀起滔天精浪，将港口上的粗心工人卷入精液海中§!\n\n§Y已解锁超巨型精子单位(可在此星球生产)§!
-#  §G这座横跨精液海洋的庞然巨构，是精液星球的经济与军事核心，也是星系级精子养殖业的出口枢纽。在港口下方，深达数百公里的精液海中游弋着成熟的超巨型精子，这些体长超过200公里的活体兵器，在荷尔蒙诱导剂的引导下，如舰队般等待部署，透过特制的观察窗，甚至隐约可见它们如山脉般的躯体在黏稠精液中缓缓蠕动。当运输舰抵达时，港口底部的活体装载舱便会释放雌性费洛蒙，引导这些庞然生物游入，它们靠近时的每一次摆动都会掀起滔天精浪，将港口上的粗心工人卷入精液海中§!\n\n§Y已解锁超巨型精子单位(可在此星球生产)§!
   building_gts_bruh_semen_system_capital_desc: "§GThis colossal megastructure spanning the Semen ocean is the economic and military core of the Semen Planet, and also the export hub of the galaxy-level sperm breeding industry. Beneath the port, mature super giant sperm cruise in the Semen sea hundreds of kilometers deep. These living weapons with a body length of over 200 kilometers wait for deployment like a fleet under the guidance of hormone inducers. Through special observation windows, their mountain-like bodies can even be faintly seen slowly wriggling in the viscous semen. When transport ships arrive, the living loading bay at the bottom of the port releases female pheromones to guide these colossal creatures in. Each swing as they approach sets off monstrous semen waves, dragging careless workers on the port into the Semen sea§!\\n\\n§YUnlocked Super Giant Sperm Unit (can be produced on this planet)§!"
   building_gts_bruh_dirt_colony_shelter: "Foot Dirt Planet Ship Refit Shelter"
   # Original: 由一艘殖民船的剩余部分改装，作为登陆足垢星球的临时据点
@@ -777,7 +798,6 @@
   building_gts_bruh_urine_system_capital: "Urine Multi-functional Processing Research Center"
   # Original: 通过尿液不同方式的利用，能够为农业发展提供大量助力
   #  透过尿液不同方式的利用，能够为农业发展提供大量助力
-#  透过尿液不同方式的利用，能够为农业发展提供大量助力
   building_gts_bruh_urine_system_capital_desc: "Through different ways of utilizing urine, it can provide massive help for agricultural development"
   district_dirt0_1_plural: "Underground Bunker City"
   # Original: 足垢冶炼矿区
@@ -875,9 +895,8 @@
   building_gts_bruh_urine_capital_desc: ""
   #  整颗星球被巨娘的爱液海洋覆盖，空气中弥漫着浓郁的雌性荷尔蒙雾气。地表常年处于温热潮湿的状态，所有水源都已被透明粘稠的爱液取代
   #  整颗星球被巨娘的爱液海洋覆盖，空气中弥漫着浓郁的雌性荷尔濛雾气。地表常年处于温热潮湿的状态，所有水源都已被透明粘稠的爱液取代
-#  整颗星球被巨娘的爱液海洋覆盖，空气中弥漫着浓郁的雌性荷尔濛雾气。地表常年处于温热潮湿的状态，所有水源都已被透明粘稠的爱液取代
   col_gts_juice_tt: "The entire planet is covered by the giantess's love fluid ocean, with the air filled with a dense mist of female hormones. The surface remains warm and humid year-round, and all water sources have been replaced by transparent, viscous love fluid."
-#  整颗星球的海洋都由乳白色的巨娘乳汁构成，空气中弥漫着浓郁的奶香。虽然不建议直接饮用未处理的乳汁，但经过沉淀的乳汁是绝佳的农业肥料虽然所有食物都带着淡淡奶腥味，但产量足以养活数个世界。
+  #  整颗星球的海洋都由乳白色的巨娘乳汁构成，空气中弥漫着浓郁的奶香。虽然不建议直接饮用未处理的乳汁，但经过沉淀的乳汁是绝佳的农业肥料虽然所有食物都带着淡淡奶腥味，但产量足以养活数个世界。
   col_gts_milk_tt: "The entire planet's oceans are made of the giantess's milky white milk, with air filled with a dense milky fragrance. Although direct consumption of untreated milk is not recommended, settled milk is an excellent agricultural fertilizer. Although all food carries a slight milky scent, the yield is enough to feed several worlds."
   col_gts_semen_tt: "Thick semen has polluted all water sources, and white murky mucus has replaced the original oceans. Giant sperm organisms swim in the viscous seas, and all plants and animals depend on the semen to survive."
   #  这颗星球已被排泄物完全覆盖。巨娘排泄出的粪便成为了新的大陆，无数生命以粪便为食为居

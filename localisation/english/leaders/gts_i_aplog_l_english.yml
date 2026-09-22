@@ -251,32 +251,49 @@
   gts_aplog.1000.name: "Change Clothes"
   #  換衣服
   #  换衣服
-#  换衣服
   gts_aplog.1000.desc: "Change Clothes"
-#  默认
+  #  默认
   gts_aplog.1000.1: "Default"
-#  默认
-  gts_aplog.1000.1a: "Default"
+  #  默认
+  #  身经百战的太空佣兵
+#  身经百战的太空佣兵
+  gts_aplog.1000.1a: "Battle-hardened Space Mercenary"
   gts_aplog.1000.2: "Nun"
   #  修女
-  gts_aplog.1000.2a: "Nun"
-  #  機工
-  #  机工
-#  机工
+  #  即使穿上修女服，艾普露依然改不了自己顽皮的天性
+#  即使穿上修女服，艾普露依然改不了自己顽皮的天性
+  gts_aplog.1000.2a: "Even dressed in a nun's habit, Aplog cannot conceal her playful nature."
   gts_aplog.1000.3: "Machinist"
-#  机工
-  gts_aplog.1000.3a: "Machinist"
-#  夏装
+  #  机工
+  #  另一个平行宇宙中作为光之战士的艾普露，似乎与这个宇宙里的艾普露性格截然不同
+#  另一个平行宇宙中作为光之战士的艾普露，似乎与这个宇宙里的艾普露性格截然不同
+  gts_aplog.1000.3a: "In an alternate parallel universe, Aplog as a Warrior of Light seems to have a personality completely distinct from the Aplog of this universe."
   gts_aplog.1000.4: "Summer Outfit"
-#  夏装
-  gts_aplog.1000.4a: "Summer Outfit"
-#  秋装
+  #  夏装
+  #  为了去海洋星球度假而特意准备的服装，看起来十分清凉
+#  为了去海洋星球度假而特意准备的服装，看起来十分清凉
+  gts_aplog.1000.4a: "An outfit specially prepared for vacations on Ocean Worlds, looking pleasantly light and refreshing."
   gts_aplog.1000.5: "Autumn Outfit"
-#  秋装
-  gts_aplog.1000.5a: "Autumn Outfit"
-#  给艾普露换衣服
+  #  秋装
+  #  艾普露平日在家最喜欢的一套衣服，但是看起来很久没洗过了
+#  艾普露平日在家最喜欢的一套衣服，但是看起来很久没洗过了
+  gts_aplog.1000.5a: "Aplog's favorite leisure outfit at home, though it looks like it hasn't been washed in quite some time."
   edict_gts_aplog_cloth: "Change April's Outfit"
-#  给艾普露换衣服
-  edict_gts_aplog_cloth_desc: "Change April's Outfit"
-#  给艾普露换衣服
-  edict_gts_aplog_cloth_description: "Change April's Outfit"
+  #  给艾普露换衣服
+  #  猫猫似乎还有其他衣服可以换装，要不要试一试？
+#  猫猫似乎还有其他衣服可以换装，要不要试一试？
+  edict_gts_aplog_cloth_desc: "The kitty seems to have other outfits to change into. Would you like to give them a try?"
+#  猫猫似乎还有其他衣服可以换装，要不要试一试？
+  edict_gts_aplog_cloth_description: "The kitty seems to have other outfits to change into. Would you like to give them a try?"
+#  经典
+  gts_aplog.1000.6: "Classic"
+#  艾普露的经典皮肤，感谢电子老师的创作
+  gts_aplog.1000.6a: "Aplog's classic look, with special thanks to Artist Dianzi for the design."
+#  埃及
+  gts_aplog.1000.7: "Egyptian"
+#  据说是艾普露一族在远古时期的装扮，为了能够展示已经添加了非常多的布料
+  gts_aplog.1000.7a: "Said to be the ancient garb of Aplog's kin; extra fabric was generously added so it could be displayed publicly."
+#  校园
+  gts_aplog.1000.8: "School"
+#  艾普露故意把巨娘学院的标准制服裁短后的产物，完全不符合校规
+  gts_aplog.1000.8a: "The product of Aplog deliberately cropping the standard Giantess Academy uniform, in blatant violation of school dress code."

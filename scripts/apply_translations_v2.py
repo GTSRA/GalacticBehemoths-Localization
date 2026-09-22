@@ -21,8 +21,8 @@ TRANSLATIONS_FILE = BASE_DIR / "data" / "missing_translations_translated.json"
 LOCK_FILE = BASE_DIR / "data" / "translation_lock.json"
 
 def clean_yaml_content(content):
-    # Remove :0 which makes YAML invalid for ruamel
-    pattern = re.compile(r"^(\s*[^#\s:][^:]*):0\s+", re.MULTILINE)
+    # Remove :0, :1, etc. and fix missing space after colon which makes YAML invalid for ruamel
+    pattern = re.compile(r"^(\s*(?!l_english\b|l_simp_chinese\b)[^#\s:][^:]*):(?:[0-9]+|\s*)\s*(?=\S)", re.MULTILINE)
     content = pattern.sub(r"\1: ", content)
     
     # Fix unindented comments
