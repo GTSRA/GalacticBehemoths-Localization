@@ -11,7 +11,7 @@ jobs:
     steps:
       # 1. Checkout 当前仓库 (B 仓库)
       - name: Checkout Upstream
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.CROSS_REPO_TOKEN }}
 
