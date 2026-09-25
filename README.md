@@ -23,6 +23,7 @@ Source Simplified Chinese localization files (`localisation/simp_chinese`) are s
   - [Step 4: Applying Translations](#step-4-applying-translations)
   - [Step 5: Quality Assurance & Sanitization](#step-5-quality-assurance--sanitization)
 - [Upstream Synchronization](#upstream-synchronization)
+- [In-Game Testing & Local Override](#in-game-testing--local-override)
 
 ---
 
@@ -40,6 +41,7 @@ Source Simplified Chinese localization files (`localisation/simp_chinese`) are s
 │   ├── missing_translations_translated.json # Translated output produced by the agent
 │   └── missing_translations_translated_schema.json # JSON Schema for translated output
 ├── docs/
+│   ├── OVERWRITE_LOCALIZATION.md # Guide for manually overwriting workshop files for local testing
 │   ├── TRANSLATION_PROMPT.md  # Standardized prompt instructions for AI translation agents
 │   └── glossary.md            # Comprehensive project glossary and naming conventions
 ├── scripts/
@@ -287,3 +289,14 @@ When upstream files change:
 1. The workflow pulls updated YAML files into `localisation/simp_chinese/`.
 2. Running `.venv/bin/python scripts/check_translation_coverage.py` will automatically highlight newly added or modified keys as `missing` or `outdated`.
 3. An Agent can then be triggered to perform incremental translations following the workflow above.
+
+---
+
+## In-Game Testing & Local Override
+
+To test unreleased or newly translated strings directly in Stellaris before an official mod update is published on Steam Workshop, you can manually overwrite the local workshop mod files.
+
+Detailed step-by-step instructions for macOS, Windows, and Linux via both File Manager (GUI) and Terminal (CLI)—along with Steam update caveats—can be found in:
+
+👉 **[`docs/OVERWRITE_LOCALIZATION.md`](docs/OVERWRITE_LOCALIZATION.md)**
+
