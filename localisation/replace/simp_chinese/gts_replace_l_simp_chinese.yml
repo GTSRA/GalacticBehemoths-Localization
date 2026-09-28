@@ -239,9 +239,9 @@
  uplift_rocky: "艰难的开端"
  uplift_rocky_desc: "此行星上被提升的物种有点不适应新的社会秩序。"
  unhappy_with_experiments: "令人不愉快的实验"
- unhappy_with_experiments_desc: "行星上的$ethic_xenophile$人口不满统治者对当地原始物种生物的不人道实验。"
+ unhappy_with_experiments_desc: "行星上的$XenophileY$人口不满统治者对当地原始物种生物的不人道实验。"
  unproductive_without_experiments: "无实验低产出"
- unproductive_without_experiments_desc: "行星上的$society_research$产出因为科学家放过了千载难逢的实验和临床测验机会而受到影响。"
+ unproductive_without_experiments_desc: "行星上的$Society_researchY$产出因为科学家放过了千载难逢的实验和临床测验机会而受到影响。"
  massex_happy: "相信未来"
  massex_happy_desc: "你的人民对于拥有一个光明的未来生活相当有自信。"
  stellar_salt: "咸咸的"
@@ -932,7 +932,7 @@
  
  tr_expansion_a_new_life: "新生活"
  tr_expansion_a_new_life_delayed: "在边远的新世界，全新的生活等待着我们的公民。这是一片充满机遇与冒险的黄金之地！通过积极的营销策略造势，那些生活中的不如意者将不断涌向前往新世界的殖民船。"
- tr_expansion_a_new_life_desc: "£pops£ §Y$MOD_LOGISTIC_GROWTH_MULT$§!增加§G+10%§!。"
+ tr_expansion_a_new_life_desc: "£pops£ §Y$MOD_POP_GROWTH_SPEED$§!增加§G+10%§!。"
  tr_expansion_a_new_life_tiny: "生生不息"
  tr_expansion_a_new_life_tiny_delayed: "为了避免被巨娘捕食殆尽，鼓励生育、增殖人口已经成为我们文明的共识。"
  tr_expansion_a_new_life_gts: "涩涩"
@@ -1746,7 +1746,7 @@
  tr_cybernetics_transubstantiation_synthesis_gts_delayed: "这种新的植入机械在小人眼里或许十分巨大，但对于我们来说确很合适。"
 
  tr_cybernetics_organ_harvesting: "脏器收割"
- tr_cybernetics_organ_harvesting_desc: "在进行§Y净化§!的星球上获得§G+10%§!£mod_pop_growth_speed£$MOD_LOGISTIC_GROWTH_MULT$。"
+ tr_cybernetics_organ_harvesting_desc: "在进行§Y净化§!的星球上获得§G+10%§!£mod_pop_growth_speed£$MOD_POP_GROWTH_SPEED$。"
  tr_cybernetics_organ_harvesting_delayed: "那些不适格者最好的归宿就是回收再利用。"
 
  tr_cybernetics_metabolic_reprocessing: "代谢再处理"
@@ -1816,7 +1816,7 @@
 
  tr_cybernetics_assimilator_gestation: "繁育星球"
  tr_cybernetics_assimilator_gestation_delayed: "该行星专注于让有机单元无缝地孵育并转变成为完全融入集体的义体实体。"
- tr_cybernetics_assimilator_gestation_desc: "解锁§Y$col_gestation$§!殖民地类型。\n§Y繁育星球§!提供§Y£job_gestation_drone£$job_gestation_drone$§!岗位以产生全帝国范围的£mod_pop_growth_speed£§Y$MOD_LOGISTIC_GROWTH_MULT$§!"
+ tr_cybernetics_assimilator_gestation_desc: "解锁§Y$col_gestation$§!殖民地类型。\n§Y繁育星球§!提供§Y£job_gestation_drone£$job_gestation_drone$§!岗位以产生全帝国范围的£mod_pop_growth_speed£§Y$MOD_POP_GROWTH_SPEED$§!"
  tr_cybernetics_assimilator_gestation_gts: "繁育星球"
  tr_cybernetics_assimilator_gestation_gts_delayed: "我们可以通过合成方式来将普通人或者小人转化为巨娘，这样就更方便跟喜欢的小家伙们贴贴了"
  tr_cybernetics_assimilator_gestation_tiny: "繁育星球"

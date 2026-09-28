@@ -180,9 +180,9 @@
   gts_linfeng_grilship_transform_decision:"在总督府安放水晶"
   gts_linfeng_grilship_transform_decision_desc:""
 
-  gts_linfeng_ship:"$NAME_gts_linfeng$"
+  gts_linfeng_ship:""
   NAME_gts_linfeng_ship:"粉狐"
-  gts_linfeng_futa_ship:"$NAME_gts_linfeng$"
+  gts_linfeng_futa_ship:""
   NAME_gts_linfeng_futa_ship:"粉狐"
 
   gts_linfeng.302.name: "林凤的舰娘“改造”"

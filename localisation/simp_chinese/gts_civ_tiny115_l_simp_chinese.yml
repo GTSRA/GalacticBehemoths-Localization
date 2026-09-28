@@ -126,7 +126,7 @@
   bombardment_gts_115tiny_armageddon: "神陨之日"
   bombardment_gts_115tiny_armageddon_desc: "$bombardment_gts_115tiny_armageddon$轰炸将以重火力对星球进行饱和攻击，目的是造成最大程度的平民伤亡。\n—对§R陆军§!造成§Y巨大§!伤害\n—对§R行星§!造成§Y巨大§!伤害\n—对§R人口§!造成§Y巨大§!伤害\n—将会轰炸不设防的星球\n—可将星球炸成毫无生机的死寂星球\n§B"比巨娘光顾过还干净..."§!"
   bombardment_gts_shipgirl_armageddon: "舰娘纵欲"
-  bombardment_gts_shipgirl_armageddon_desc: "$bombardment_gts_shipgirl_armageddon$轰炸将允许巨娘用任何方式对星球进行饱和攻击，目的是造成最大程度的破坏。§B以及让她玩的开心。§!\n—对§R陆军§!造成§Y毁灭性§!伤害\n—对§R行星§!造成§Y毁灭性§!伤害\n—对§R人口§!造成§Y毁灭性§!伤害\n—将会轰炸不设防的星球\n—可将星球炸成毫无生机的死寂星球\n§B"是用足底踩踏还是用胸部碾压呢？不，我要所有部位都来一遍~"§!"#\n—舰娘将会用身体掳掠这颗星球上的人口，如果它们还能活着的话。
+  bombardment_gts_shipgirl_armageddon_desc: "$bombardment_gts_115_armageddon$轰炸将允许巨娘用任何方式对星球进行饱和攻击，目的是造成最大程度的破坏。§B以及让她玩的开心。§!\n—对§R陆军§!造成§Y毁灭性§!伤害\n—对§R行星§!造成§Y毁灭性§!伤害\n—对§R人口§!造成§Y毁灭性§!伤害\n—将会轰炸不设防的星球\n—可将星球炸成毫无生机的死寂星球\n§B"是用足底踩踏还是用胸部碾压呢？不，我要所有部位都来一遍~"§!"#\n—舰娘将会用身体掳掠这颗星球上的人口，如果它们还能活着的话。
   gts_action.83.desc: "我们的舰娘报告称已完成对§H[From.GetName]§!的轰炸。所有人口聚集地都被彻底消灭了。现在[From.GetPlanetMoon]表面处处残留着巨娘的蹂躏痕迹。\n§B呜嗯~玩的好开心~§!"
   gts_bombed_to_tomb_world: "§Y[From.GetName]现已成为舰娘泄欲完成的垃圾。§!"
   #舰船
@@ -511,7 +511,7 @@
   job_gts_godness_power_keeper_desc:"再教育职工是小人岗位，这些小人的存在可以帮助接受再教育的巨娘完成再教育行为，激励巨娘完成各项教学目标。"
   mod_job_gts_godness_power_keeper_add:"再教育职工岗位增加"
   mod_job_gts_godness_power_keeper_per_pop: "每$VALUE$人口§G+2§!$job_gts_godness_power_keeper$岗位"
-  mod_job_gts_godness_power_keeper_per_pop_short: "\n每$VALUE$£pop£§G+1§!£job_gts_godness_power_keeper£"
+  mod_job_gts_godness_power_keeper_per_pop_short: "\n每$VAUE$£pop£§G+1§!£job_gts_godness_power_keeper£"
   mod_pc_godness_power_world_max_buildings_add: "额外建筑槽位"
   SYNAPTIC_LATHE_EFFICENCY_TITLE: "效率"
   SYNAPTIC_LATHE_EFFICENCY_DESC: "§E每有一个§Y神经芯片§!插入凝练机，这座结构中其他所有§Y神经芯片§!的效率都会提升。将我们的人口大量迁移至此，我们就能显著地提升其产出能力。§!"

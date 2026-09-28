@@ -18,7 +18,7 @@
 
   #小人
   first_contacttiny.1.name: "在[This.System.GetName]的遭遇"
-  first_contacttiny.1.desc: "我们已成功与§H[This.System.GetName]§!星系的神秘外星人建立第一次接触。不知道她们是否就是传说中的巨娘？从今开始至知悉更详细的信息为止，我们将其代称为§H[This.ContactCountry.GetName]§!。"
+  first_contacttiny.1.desc: "我们已成功与§H[This.System.GetName]§!星系的神秘外星人建立第一次接触。从今开始至知悉更详细的信息为止，我们将其代称为§H[This.ContactCountry.GetName]§!。"
 
   #第一次接触-阶段2
   first_contactgts.11.name: "新的小人文明？"

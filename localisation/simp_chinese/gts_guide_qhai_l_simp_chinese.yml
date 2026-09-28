@@ -1,8 +1,7 @@
 ﻿l_simp_chinese:
- gts_qhai_love:"千海的好感度"
  NAME_qhai_communicate:"千海的通讯"
- MESSAGE_GTS_QHAI:"§r千海§!的通讯方式已添加"
- MESSAGE_GTS_QHAI_DESC:"§r千海§!的通讯方式已添加"
+ MESSAGE_GTS_QHAI:"千海的通讯方式已添加"
+ MESSAGE_GTS_QHAI_DESC:"千海的通讯方式已添加"
  gts_guide_qhai.0.name:"千海的通讯"
  gts_guide_qhai.0.desc:"[GetQhaiFirstMeetText]"
  gts_guide_qhai.0.desc.1:"通讯正常接通了：\n§r"小小统治者，你来啦，这应该是与你的第二次通讯？总之，在我这儿，我可以为给你提供一些也许有用的帮助~希望可以为你接下来的工作提供便利哦。“§!"
@@ -60,10 +59,8 @@
  gts_guide_qhai.2.option.6.tooltips:"§r为您转接到小死神吗，哪个星球又要遭殃了呢§!"
  gts_guide_qhai.2.option.7:"转接到花田"
  gts_guide_qhai.2.option.7.tooltips:"§r为您转接到小花田吗，可爱的美少女谁不喜欢呢§!"
-#  gts_guide_qhai.2.option.8:"转接到希诺"
-#  gts_guide_qhai.2.option.8.tooltips:"§r为您转接到希诺吗，她似乎有着格外沉重的使命呢§!"
- gts_guide_qhai.2.option.9:"转接到斯卡蒂"
- gts_guide_qhai.2.option.9.tooltips:"§r为您转接到斯卡蒂吗，她对“博士”格外的依恋呢§!"
+ gts_guide_qhai.2.option.8:"转接到希诺"
+ gts_guide_qhai.2.option.8.tooltips:"§r为您转接到希诺吗，她似乎有着格外沉重的使命呢§!"
  gts_guide_qhai.2.option.back:"返回"
  gts_guide_qhai.2.option.quit:"没事了"
 
@@ -78,7 +75,6 @@
 
  gts_guide_qhai.4.name:"通讯器的来历"
  gts_guide_qhai.4.desc:""
-
  gts_guide_qhai.7.name:"成就列表"
  gts_guide_qhai.7.desc.1:"§r成就的完成难度有难也有易，有些隐藏成就连我都不知道怎么触发呢~§!"
  gts_guide_qhai.7.desc.2:"§r你慢慢看吧，如果要兑换奖励的话也请到我这边来哦。§!"
@@ -113,4 +109,3 @@
  gts_guide_qhai.103.option.2:"奖励是谁提供的？"
  gts_guide_qhai.103.response.2:"§r“嗯，大部分是我,但还有一些是其他巨娘自·愿·提·供的哦~”§!\n千海笑眯眯地将最后几个字念得格外的重。"
  gts_guide_qhai.103.option.quit:"了解了"
-
