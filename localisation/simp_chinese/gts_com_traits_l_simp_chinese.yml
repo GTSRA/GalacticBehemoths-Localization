@@ -369,8 +369,3 @@
 
   GTS_LEADER_SPECIES: "巨大娘"
   TINY_LEADER_SPECIES: "缩小人"
-  trait_tiny_reproduce_desc: "这个物种会在感受到威胁时加快繁殖速度，以保证整个种群能够延续，这也使得它们成为了巨娘们的优质食粮"
-  trait_tiny_reproduce_tooltip: "\n§R不能产生领袖\n无法在统治者或专家岗位上就业§!\n§G同一星球上每100个巨娘人口可以使小人人口获得：§!\n§G£mod_logistic_growth_mult£$MOD_LOGISTIC_GROWTH_MULT$+3%，最大300%§!"
-  TINY_LEADER_SPECIES: "缩小人"
-  trait_tiny_reproduce_desc: "这个物种会在感受到威胁时加快繁殖速度，以保证整个种群能够延续，这也使得它们成为了巨娘们的优质食粮"
-  trait_tiny_reproduce_tooltip: "\n§R不能产生领袖\n无法在统治者或专家岗位上就业§!\n§G同一星球上每100个巨娘人口可以使小人人口获得：§!\n§G£mod_logistic_growth_mult£$MOD_LOGISTIC_GROWTH_MULT$+3%，最大300%§!"
