@@ -113,15 +113,15 @@
   # Original: 既然无法反抗，那就竭力讨好。不仅如数上交，还要额外献上我们『最优秀』、『最自愿』的同胞，并附上谄媚的颂词。或许极致的顺从能换来一丝怜悯，甚至是一点残羹冷炙般的赏赐\n§Y交出[event_target:gts_bruh_get_subject_pop_usage_1_planet.GetName]10%的人口§!
   gts_event_bruh.41.b.custom_tooltip: "Since resistance is impossible, try to please them. Not only hand over the full amount but also offer our 『best』 and 『most willing』 compatriots, accompanied by flattering eulogies. Perhaps extreme obedience can be exchanged for a trace of pity, or even a bit of leftover-like reward\n§YHand over 10% of [event_target:gts_bruh_get_subject_pop_usage_1_planet.GetName]'s population§!"
   # Original: §Y二级好感§!   ([this.gts_love_logs] / 50)\n[this.GetName]的感情逐渐升温，似乎逐渐成为了[Owner.GetName]的一份子
-  trait_leader_gts_love_lv2_desc: "§YLevel 2 Affection§!   ([this.gts_love_logs] / 50)\n[this.GetName]'s feelings are gradually heating up, seemingly becoming a part of [Owner.GetName]"
+  trait_leader_gts_love_lv2_desc: "§YLevel 2 Affection§!   ([this.gts_love_logs] / 50)\n[this.GetName]'s feelings are gradually heating up, seemingly becoming a part of [Owner.GetName]!"
   # Original: §Y六级好感§!   ([this.gts_love_logs]) \n[this.GetName]与我们已然超越了言语的描述，直至星河尽头
-  trait_leader_gts_love_lv6_desc: "§YLevel 6 Affection§!   ([this.gts_love_logs]) \n[this.GetName] and us have gone beyond words, until the end of the galaxy"
+  trait_leader_gts_love_lv6_desc: "§YLevel 6 Affection§!   ([this.gts_love_logs]) \n[this.GetName] and us have gone beyond words, until the end of the galaxy!"
   # Original: 将这些小人分送到帝国的娱乐设施。用于满足巨娘的性欲需求，在巨大的手指、舌尖或性器下体验极致的渺小感与绝望感，直至被碾碎，为帝国的娱乐产业贡献其微不足道的价值
-  gts_event_bruh.51.a.custom_tooltip: "Distribute these tiny people to the Empire's entertainment facilities. Used to satisfy the sexual needs of giantesses, experiencing extreme insignificance and despair under giant fingers, tongues, or genitals until crushed, contributing their negligible value to the Empire's entertainment industry"
+  gts_event_bruh.51.a.custom_tooltip: "Distribute these tiny people to the Empire's entertainment facilities. Used to satisfy the sexual needs of giantesses, experiencing extreme insignificance and despair under giant fingers, tongues, or genitals until crushed, contributing their negligible value to the Empire's entertainment industry."
   # Original: §Y3000£gts_micro£人口死亡§!
   gts_bruh_casualties_3000.tooltip: "§Y3000£gts_micro£Populations Died§!"
   # Original: 将这些小人归类为食品资源。它们将被批次处理，成为巨娘餐桌上的活点心、调味品或零食，在巨大的口腔和胃袋中结束其微不足道的存在
-  gts_event_bruh.51.b.custom_tooltip: "Classify these tiny people as food resources. They will be processed in batches, becoming live snacks, condiments, or treats on the giantess's table, ending their insignificant existence in huge mouths and stomachs"
+  gts_event_bruh.51.b.custom_tooltip: "Classify these tiny people as food resources. They will be processed in batches, becoming live snacks, condiments, or treats on the giantess's table, ending their insignificant existence in huge mouths and stomachs."
   # Original: 将部分小人用于高强度的劳动消耗，另一部分则作为巨娘的玩物
   gts_event_bruh.31.a.custom_tooltip: "Use some tiny people for high-intensity labor consumption, while others serve as playthings for giantesses"
   # Original: 反抗即是毁灭。为了种族的存续，我们必须忍受这份屈辱。至少...这能换来短暂的和平\n§Y交出[event_target:gts_bruh_get_subject_pop_usage_1_planet.GetName]5%的人口§!
@@ -163,7 +163,7 @@
   # Original: 投入红灯区
   gts_event_bruh.11.b: "Perfunctory drafting"
   # Original: §Y四级好感§!   ([this.gts_love_logs] / 100)\nw我们如今与[this.GetName]拥有了深厚的情谊，即使再大的体型差距也难以阻碍这份关系\n$leader_trait_gtsdestroyer_picture$
-  trait_leader_gts_love_lv4_desc: "§YLevel 4 Affection§!   ([this.gts_love_logs] / 200)\n[this.GetName] has become sticky with us, willing to dedicate everything to [Owner.GetName]"
+  trait_leader_gts_love_lv4_desc: "§YLevel 4 Affection§!   ([this.gts_love_logs] / 200)\n[this.GetName] has become sticky with us, willing to dedicate everything to [Owner.GetName]."
   # Original: 履行条款
   gts_event_bruh.41.a: "Obey Requisition"
   # Original: 视为宠物
@@ -171,9 +171,9 @@
   # Original: 谄媚讨好
   gts_event_bruh.41.b: "Refuse Requisition"
   # Original: §Y五级好感§!   ([this.gts_love_logs] / 100)\n无论[Owner.GetName]剑指何方，[this.GetName]始终都将陪在我们身旁
-  trait_leader_gts_love_lv5_desc: "§YLevel 5 Affection§!   ([this.gts_love_logs] / 400)\n[this.GetName] loves [Owner.GetName] deeply, willing to give everything for [Owner.GetName]"
+  trait_leader_gts_love_lv5_desc: "§YLevel 5 Affection§!   ([this.gts_love_logs] / 400)\n[this.GetName] loves [Owner.GetName] deeply, willing to give everything for [Owner.GetName]."
   # Original: 向宗主国发出请求，表示愿意上缴双倍的资源来「赎回」这些公民的自由，强调这样对§Y[from.GetName]§!更有利可图
-  gts_event_bruh.21.b.custom_tooltip: "Refuse to hand over citizens. This will be seen as a challenge to the suzerain's authority, possibly leading to deteriorating relations or war, but will protect our people from the fate of becoming pets"
+  gts_event_bruh.21.b.custom_tooltip: "Refuse to hand over citizens. This will be seen as a challenge to the suzerain's authority, possibly leading to deteriorating relations or war, but will protect our people from the fate of becoming pets."
   # Original: 宠物？不过是高级玩具罢了。把它们送到红灯区去，物尽其用，让大家开心开心，还能赚点外快
   gts_event_bruh.11.b.custom_tooltip: "Select prisoners and homeless people to hand over. They are burdens to society anyway, better to exchange for some value"
   # Original: 赏赐给有功的将领和官员
@@ -181,7 +181,7 @@
   # Original: §Y500£gts_micro£人口死亡§!
   gts_bruh_casualties_500.tooltip: "§Y500£gts_micro£Populations Died§!"
   # Original: §Y一级好感§!   ([this.gts_love_logs] / 25)\n[this.GetName]与我们还十分生疏，难以真正地敞开心扉.相信这层壁垒会随着相处时间增加而逐渐消融
-  trait_leader_gts_love_lv1_desc: "§YLevel 1 Affection§!   ([this.gts_love_logs] / 25)\n[this.GetName] is still very unfamiliar with us, difficult to truly open her heart. Believe this barrier will gradually melt with increased time together"
+  trait_leader_gts_love_lv1_desc: "§YLevel 1 Affection§!   ([this.gts_love_logs] / 25)\n[this.GetName] is still very unfamiliar with us, difficult to truly open her heart. Believe this barrier will gradually melt with increased time together."
   # Original: §Y50%£gts_micro£人口死亡§!
 
   gts_bruh_casualties_50_50.tooltip: "§Y50%£gts_micro£Populations Died§!"
@@ -213,13 +213,13 @@
   # Original: 我这有两个能提升速度的选项§R（想好了再用，非必要别用）§!\n\n§R摧毁所有普通帝国大部分的军用船只，不包含民用船只§Y（小幅提升游戏速度）§!§!\n\n§R摧毁所有普通帝国几乎所有的船只，包含开采站及星港§Y（大幅提升游戏速度，但会失去除了殖民地以外的星系）§!§!
   # Original: 分配至巨娘红灯区
   # Original: 该领袖完成考古时:获得中量资源,所有领袖获得少量经验
-  gts_skill_scientist_level_two_5_effect: "When this leader finishes archaeology: Gain medium amount of resources, all leaders gain small amount of XP"
+  gts_skill_scientist_level_two_5_effect: "When this leader finishes archaeology: Gain medium amount of resources, all leaders gain small amount of XP."
   # Original: 谄媚讨好
   # Original: 筛选一下，健壮的送去劳动，孱弱的送去娱乐中心
   # Original: 在发掘考古遗迹时可获得少量资源
-  gts_skill_scientist_level_three_02_effect: "Gain small amount of resources when excavating archaeological sites"
+  gts_skill_scientist_level_three_02_effect: "Gain small amount of resources when excavating archaeological sites."
   # Original: 该领袖摧毁敌方舰队时可获得少量资源
-  gts_skill_commander_level_two_5_effect: "Gain small amount of resources when this leader destroys enemy fleet"
+  gts_skill_commander_level_two_5_effect: "Gain small amount of resources when this leader destroys enemy fleet."
   # Original: 含泪执行
   # Original: §R好哦§!
   gts_leader_bruh.41.a: "§ROkay§!"
@@ -228,7 +228,7 @@
   gts_leader_bruh.41.c: "§YOkay§!"
   # Original: 一份来自巨人国度的指令抵达了§Y[event_target:gts_bruh_get_subject_pop_usage_2_country.GetName]§!。根据那份我们无法拒绝的条约，宗主国§Y[from.GetName]§!要求我们立即提供人口，作为『特殊劳务输出』。运输船队已经停靠在近地轨道，巨大的阴影投射在城市上空，如同末日降临。国内的新闻媒体被强制噤声，但恐慌仍透过口耳相传蔓延开来。人们躲在家中，祈祷厄运不会降临在自己头上。军队在街上巡逻，强制征召适龄人口，哭喊声和呵斥声在街上回荡。我们深知这些同胞一旦被送走，将面临的命运绝非简单的『劳务』。我们必须立刻决定如何面对这道冰冷的命令。
   # Original: §Y三级好感§!   ([this.gts_love_logs] / 75)\n长时间的合作也让我们与[this.GetName]积累了信任，她如今已经成为了我们可靠的伙伴
-  trait_leader_gts_love_lv3_desc: "§YLevel 3 Affection§!   ([this.gts_love_logs] / 75)\nLong-term cooperation has built trust with [this.GetName], she has become our reliable partner"
+  trait_leader_gts_love_lv3_desc: "§YLevel 3 Affection§!   ([this.gts_love_logs] / 75)\nLong-term cooperation has built trust with [this.GetName], she has become our reliable partner."
   # Original: §R摧毁所有普通帝国几乎所有的船只，包含开采站及星港
   # Original: 投入红灯区
   # Original: 既然无法反抗，不如极尽谄媚之能事。我们不仅足额上交，还额外交出双倍的资源，并请求巨娘在享用贡品时，偶尔能想起我们的忠诚，以期换取未来配额可能的减少或微不足道的赏赐\n§Y交出[event_target:gts_bruh_get_subject_pop_usage_1_planet.GetName]25%的人口§!\n§Y下次征收改为30年后§!
@@ -243,9 +243,9 @@
   # Original: 谄媚讨好
   # Original: §Y五级好感§!   ([this.gts_love_logs] / 100)\n无论[Owner.GetName]剑指何方，[this.GetName]始终都将陪在我们身旁
   # Original: Colin很懒，这里什么都没有（如果你有什么文案想法就连络Colin吧）\n\n总之有小人被巨娘UB并被转化成巨娘了
-  gts_leader_bruh.41.desc: "Colin is lazy, nothing here... Anyway tiny people converted to giantess"
+  gts_leader_bruh.41.desc: "Colin is lazy, nothing here... Anyway tiny people converted to giantess."
   # Original: 该领袖完成异常时:获得少量资源,所有领袖获得少量经验
-  gts_skill_scientist_level_two_4_effect: "When this leader finishes anomaly: Gain small amount of resources, all leaders gain small amount of XP"
+  gts_skill_scientist_level_two_4_effect: "When this leader finishes anomaly: Gain small amount of resources, all leaders gain small amount of XP."
   # Original: 这是测试用的选项§R(你不应该看得到这个的)§!
   gts_leader_bruh.41.d: "This is a test option §R(You shouldn't see this)§!"
   # Original: 向宗主国发出请求，表示愿意上缴双倍的资源来「赎回」这些公民的自由，强调这样对§Y[from.GetName]§!更有利可图
@@ -290,22 +290,22 @@
 #  巨娘星球适应
   tech_gts_bruh_gts_planet_adaption: "Giantess Planet Adaptation"
 #  进一步研究其他行星上发现的危险环境有助於纾解殖民者在其他星球的日常生活中遇到的困难
-  tech_gts_bruh_gts_planet_adaption_desc: "Further research into dangerous environments found on other planets helps to alleviate difficulties encountered by colonists in daily life on other planets"
+  tech_gts_bruh_gts_planet_adaption_desc: "Further research into dangerous environments found on other planets helps to alleviate difficulties encountered by colonists in daily life on other planets."
   building_gts_bruh_administrative_tower: "Galactic Administrative Mega-Tower"
   # Original: 这座直入云霄的巨塔是整个帝国的行政核心，承载着层层叠叠的部门。巨娘官僚用她们比山还高的身躯在此处展开繁琐的文书工作，一份文件可能就与一座小人图书馆一样厚重，但对巨娘来说，只是拆阅一页的日常工作
-  building_gts_bruh_administrative_tower_desc: "This giant tower reaching into the clouds is the administrative core of the entire empire, carrying layers of departments. Giantess bureaucrats perform cumbersome paperwork here with their bodies taller than mountains. A single document may be as thick as a small person's library, but for a Giantess, it is just the daily work of opening a page"
+  building_gts_bruh_administrative_tower_desc: "This giant tower reaching into the clouds is the administrative core of the entire empire, carrying layers of departments. Giantess bureaucrats perform cumbersome paperwork here with their bodies taller than mountains. A single document may be as thick as a small person's library, but for a Giantess, it is just the daily work of opening a page."
   # Original: 巨塔官僚
   job_gts_bruh_megaclerk: "Mega-Tower Bureaucrat"
   # Original: $job_gts_bruh_megaclerk$
   job_gts_bruh_megaclerk_plural: "$job_gts_bruh_megaclerk$"
   # Original: 这些巨娘官僚日以继夜地处理帝国的文书与政令。虽然她们的工作重复冗长，但庞大的个体却能在不知疲倦的状态下处理巨量资讯，使帝国政务得以在数万星系间流转无碍\n\n该职位仅限§Y正常§!及以上特质的人口就职，§Y高大§!及以上特质的人口会有更高的就职权重
   #  這些巨娘官僚日以繼夜地處理帝國的文書與政令。雖然她們的工作重複冗長，但龐大的個體卻能在不知疲倦的狀態下處理巨量資訊，使帝國政務得以在數萬星系間流轉無礙\n\n該職位僅限§Y正常§!及以上特質的人口就職，§Y高大§!及以上特質的人口會有更高的就職權重
-  job_gts_bruh_megaclerk_desc: "These Giantess bureaucrats handle the empire's documents and decrees day and night. Although their work is repetitive and lengthy, the huge individuals can handle massive amounts of information tirelessly, ensuring that the empire's government affairs can flow unimpeded among tens of thousands of galaxies\\n\\nThis position is limited to Pops with §YNormal§! and above traits, and Pops with §YTall§! and above traits will have higher employment weight"
+  job_gts_bruh_megaclerk_desc: "These Giantess bureaucrats handle the empire's documents and decrees day and night. Although their work is repetitive and lengthy, the huge individuals can handle massive amounts of information tirelessly, ensuring that the empire's government affairs can flow unimpeded among tens of thousands of galaxies\\n\\nThis position is limited to Pops with §YNormal§! and above traits, and Pops with §YTall§! and above traits will have higher employment weight."
   #  $job_gts_bruh_megaclerk$是巨娘崗位，消耗§Y$r_energy$§!、§Y$r_consumer_goods$§!產出\n§Y$r_unity$§!
   job_gts_bruh_megaclerk_effect_desc: "$job_gts_bruh_megaclerk$ is a Giantess job, consuming §Y$r_energy$§!, §Y$r_consumer_goods$§! to produce\\n§Y$r_unity$§!"
   #  $job_gts_bruh_megaclerk$崗位
   mod_job_gts_bruh_megaclerk_add: "$job_gts_bruh_megaclerk$ Job"
-  mod_job_gts_bruh_megaclerk_per_pop: "Every $VALUE$ Pops provides §G1§! Mega-Tower Bureaucrat Job"
+  mod_job_gts_bruh_megaclerk_per_pop: "Every $VALUE$ Pops provides §G1§! Mega-Tower Bureaucrat Job."
   # Original: §Y宠物征收§!
   gts_event_bruh.11.name: "§YPet Requisition§!"
   # Original: §Y宠物征收§!
@@ -383,15 +383,15 @@
   leader_trait_gts_bruh_empty: "Placeholder"
   # Original: 防止bug用的，会自动移除
   #  防止bug用的，會自動移除
-  leader_trait_gts_bruh_empty_desc: "Used to prevent bugs, will be removed automatically"
+  leader_trait_gts_bruh_empty_desc: "Used to prevent bugs, will be removed automatically."
   leader_trait_gts_futa: "Futa"
   # Original: [root.GetName]的身上长有通常认为只有雄性才有的性器官
   #  [root.GetName]的身上長有通常認為只有雄性才有的性器官
-  leader_trait_gts_futa_desc: "[root.GetName] has sexual organs usually considered only to be found in males"
+  leader_trait_gts_futa_desc: "[root.GetName] has sexual organs usually considered only to be found in males."
   #  鞋內偏好
   trait_pc_gts_shoes_preference: "In-Shoe Preference"
   #  這個物種能夠適應鞋內潮濕陰暗的環境，並且進化出了一套鞋內生存之道
-  trait_pc_gts_shoes_preference_desc: "This species can adapt to the humid and dark environment inside shoes, and has evolved a set of survival skills inside shoes"
+  trait_pc_gts_shoes_preference_desc: "This species can adapt to the humid and dark environment inside shoes, and has evolved a set of survival skills inside shoes."
   gts_love_logs: "Affinity"
   # Original: §Y好感度§!
   trait_leader_gts_love_logs: "§YAffinity§!"
